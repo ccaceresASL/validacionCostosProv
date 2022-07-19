@@ -906,7 +906,7 @@ def procesarEstructuraIteracion(dirIter):
                 return chargeLinesPostearCostos, tuplasDetalleChLine
 
             def generarInputPostearEAdaptor(chargeLinesPostearCostos):
-
+                print("len", len(chargeLinesPostearCostos))
                 if (len(chargeLinesPostearCostos) > 0):
                     dirInputeAdaptor = os.path.join(CurrentDirectory, "eAdaptor", "Input")
                     dirEscturcturaCarpetasXML = os.path.join(carpetaTransaccion, "XML_CWPostCost")
