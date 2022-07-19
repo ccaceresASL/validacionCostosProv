@@ -875,9 +875,6 @@ def procesarEstructuraIteracion(dirIter):
 
                 dataSourceChargeLine = treeCW.findall(".//{*}JobCosting/{*}ChargeLineCollection/{*}ChargeLine")
 
-                montoDetalles = 0
-                montoCredCW = 0
-                montoCero = False
                 tuplasDetalleChLine = []
                 chargeLinesPostearCostos = []
                 for detalle in dataSourceDetalles:
@@ -901,45 +898,16 @@ def procesarEstructuraIteracion(dirIter):
                             float(chargeLine.findall(".//{*}CostLocalAmount")[0].text) == float(montoDetTransaccion) and
                             float(chargeLine.findall(".//{*}CostLocalAmount")[0].text) > 0):
                             chLineDetalle.append(chargeLine)
+                            if(chargeLine.findall(".//{*}CostIsPosted")[0].text == "false"):
+                                chargeLinesPostearCostos.append(chargeLine)
 
                     tuplasDetalleChLine.append([detalle, chLineDetalle])
 
-                for chargeLine in dataSourceChargeLine:
+                return chargeLinesPostearCostos, tuplasDetalleChLine
 
-                    creditorName = ""
-                    creditorKey = ""
-                    try:
-                        creditorKey = chargeLine.findall(".//{*}Creditor/{*}Key")[0].text
+            def generarInputPostearEAdaptor(chargeLinesPostearCostos):
 
-                    except:
-                        pass
-
-                    if (creditorKey != ""):
-                        creditorName = getNombreOrgFromCode(creditorKey)
-
-                    if (creditorName == creditorTransaccion and creditorName != ""):
-                        montoCredCW+=float(chargeLine.findall(".//{*}CostLocalAmount")[0].text)
-                        if (float(chargeLine.findall(".//{*}CostLocalAmount")[0].text) <= 0):
-                            montoCero = True
-
-                detallesEnPareja = True
-                for tup in tuplasDetalleChLine:
-                    if (len(tup[1]) == 1):
-                        if (tup[1][0].findall(".//{*}CostIsPosted")[0].text == "false"):
-                            chargeLinesPostearCostos.append(tup[1][0])
-
-                    else:
-                        detallesEnPareja = False
-
-
-                if(detallesEnPareja == False or montoCero == True):
-                    chargeLinesPostearCostos = []
-
-                return chargeLinesPostearCostos, tuplasDetalleChLine, detallesEnPareja, montoCero
-
-            def generarInputPostearEAdaptor(chargeLinesPostearCostos, montoCero):
-
-                if (len(chargeLinesPostearCostos) > 0 and montoCero == False):
+                if (len(chargeLinesPostearCostos) > 0):
                     dirInputeAdaptor = os.path.join(CurrentDirectory, "eAdaptor", "Input")
                     dirEscturcturaCarpetasXML = os.path.join(carpetaTransaccion, "XML_CWPostCost")
                     dirInput = os.path.join(dirEscturcturaCarpetasXML, "Input")
@@ -1074,11 +1042,11 @@ def procesarEstructuraIteracion(dirIter):
             from lxml import etree
             from lxml import etree, objectify
 
-            chargeLinesPostearCostos, tuplasDetalleChLine, montosIguales, detallesEnPareja, montoCero = getChargeLinesPostear(carpetaTransaccion, dirTransaction, dirRespCW)
+            chargeLinesPostearCostos, tuplasDetalleChLine = getChargeLinesPostear(carpetaTransaccion, dirTransaction, dirRespCW)
 
-            generarInputPostearEAdaptor(chargeLinesPostearCostos, montoCero)
+            generarInputPostearEAdaptor(chargeLinesPostearCostos)
 
-            return chargeLinesPostearCostos, tuplasDetalleChLine, montosIguales, detallesEnPareja, montoCero
+            return chargeLinesPostearCostos, tuplasDetalleChLine
 
         def ejecutarEAdaptor():
             import subprocess

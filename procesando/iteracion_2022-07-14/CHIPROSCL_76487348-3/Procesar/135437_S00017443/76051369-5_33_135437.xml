@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0">
+<Documento ID="R76006532-3T33F135437">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>135437</Folio>
+<FchEmis>2022-06-16</FchEmis>
+<FmaPago>2</FmaPago>
+<MntPagos>
+<FchPago>2022-07-01</FchPago>
+<MntPago>3570</MntPago>
+<GlosaPagos>15 Dias documentado</GlosaPagos>
+</MntPagos>
+<FchVenc>2022-07-15</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76051369-5</RUTEmisor>
+<RznSoc>PLUSCARGO S.A.</RznSoc>
+<GiroEmis>SERVICIOS DE TRANSPORTE NACIONAL E INTERNACIONAL DE CARGA</GiroEmis>
+<Acteco>522190</Acteco>
+<DirOrigen>APOQUINDO 4445, Depto. OF202</DirOrigen>
+<CmnaOrigen>Las Condes</CmnaOrigen>
+<CiudadOrigen>Santiago</CiudadOrigen>
+<CdgVendedor>Ningun empleado del departamento de ventas</CdgVendedor>
+</Emisor>
+<Receptor>
+<RUTRecep>76006532-3</RUTRecep>
+<RznSocRecep>AIRSEALOGISTICS SPA</RznSocRecep>
+<GiroRecep>FREIGHT FORWARDER</GiroRecep>
+<Contacto>MA DEL CARMEN ORTIZ</Contacto>
+<CorreoRecep>jhuichaman@airsea-log.com</CorreoRecep>
+<DirRecep>NUEVA LYON 72, Of. 1501</DirRecep>
+<CmnaRecep>PROVIDENCIA</CmnaRecep>
+<CiudadRecep>SANTIAGO</CiudadRecep>
+<DirPostal/>
+<CmnaPostal/>
+<CiudadPostal>SANTIAGO</CiudadPostal>
+</Receptor>
+<Transporte>
+<DirDest>NUEVA LYON 72, Of. 1501</DirDest>
+<CmnaDest>PROVIDENCIA</CmnaDest>
+<CiudadDest>SANTIAGO</CiudadDest>
+</Transporte>
+<Totales>
+<MntNeto>3000</MntNeto>
+<MntExe>0</MntExe>
+<TasaIVA>19</TasaIVA>
+<IVA>570</IVA>
+<MntTotal>3570</MntTotal>
+<MontoNF>0</MontoNF>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo/>
+<VlrCodigo>98009</VlrCodigo>
+</CdgItem>
+<NmbItem>98009</NmbItem>
+<DscItem>DESCONSOLIDATION*</DscItem>
+<QtyItem>1</QtyItem>
+<PrcItem>3000</PrcItem>
+<MontoItem>3000</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>801</TpoDocRef>
+<FolioRef>S00017443</FolioRef>
+<FchRef>2022-06-16</FchRef>
+</Referencia>
+<TED version="1.0">
+<DD>
+<RE>76051369-5</RE>
+<TD>33</TD>
+<F>135437</F>
+<FE>2022-06-16</FE>
+<RR>76006532-3</RR>
+<RSR>AIRSEALOGISTICS SPA</RSR>
+<MNT>3570</MNT>
+<IT1>98009</IT1>
+<CAF version="1.0">
+<DA>
+<RE>76051369-5</RE>
+<RS>PLUSCARGO CHILE SPA</RS>
+<TD>33</TD>
+<RNG>
+<D>132691</D>
+<H>140690</H>
+</RNG>
+<FA>2022-03-25</FA>
+<RSAPK>
+<M>sO1GzvWZj9Wtv+WDkAHSdxJobqxqCb2L67UTtPlsuOoY5uauGuAj78zwqQo/DokE04WE+Q3kAz85naG4owp17Q==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">mq3gh4sSmZFdNmu/C3ylTdLOvJneF8Hhq3y4eNTO3WC2Bqm6wxQa8m6q8OloCtZKh6uhPSPLKP+/gTfeL+qyHA==</FRMA>
+</CAF>
+<TSTED>2022-06-16T15:20:55</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">EFchw2KDoIYzu3aAeEWDCLHRtTZJvWIgIkr1iCeuueAePl7g6cqvf2HBniYCYBqHyxdjvSOulf/MDiUcCZe85w==</FRMT>
+</TED>
+<TmstFirma>2022-06-16T15:20:55</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#R76006532-3T33F135437">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>VkP5v6vKWx8tsgAVua/mtL8X6L8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>oUbA296A23jx/fKU8bkFTJE2V+pIFhSTIIRoLPgr5Ytc5hkQt+YteFIk74Ly8Ske3oJb8TFxv+vnQ9HU+2bZPwEgCG4sNnaMfvSI5pr1iHyF+glh78uTJDQ9oPfOGLSkp17Rg3rABiY4UplmxQQ7MLVevoBly/6VeHtTgEvT8/af2rWRiwzQ9qMbBHtNBmdHpAai/k652MHq4yhqOwG6d7p7PY4s2U3Kn3hsamNUajCuHGSTwW8kRSwcW6V9gUUDgeVk2lGigTzBNGhRMCfjLKZVa0SqvZ/RZp9BXYNXsJbGMZxLK7n9yPzLi+4qDGxaeb0urqw3cTJTEKSKF4gHSQ==</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>pJnyz11P4peihugw6MaSF4EOe3OB6o0kZ+0vCU2sz8PoUyVCEtP6HgC784JvY2fHTjP5RWdvYXhNCQtM5igee8Vf59KK9AjqYJ8eFz/j/FCXSQ2f3mZhejXoHhLLYqy5WHhKK1l/lFvHLHL6DI5BGnyzjk1hjwrOZQj4rBoy9/K7/GyiI2RZdu/XQsmgmEXFGzxlGV8tYm9tQQhhdVszMCO6d7h/SJYiAMA2F2UsBxE8sR6jhlimc4gm8MTZ4Eyuku319j3PaRj6EqLyWeI8edYEnGmttK4fC9atgOehazx8mUxF9rvI1VVpwoNoe7J92hN7gZvY6C47F3wEbFSrsQ==</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>

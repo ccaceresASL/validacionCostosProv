@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0" xmlns="http://www.sii.cl/SiiDte">
+<!--O Win32 Chrome 102 central VERSION: v20190409-->
+<Documento ID="MiPE76487348-15100">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>12801</Folio>
+<FchEmis>2022-06-28</FchEmis>
+<TpoTranCompra>1</TpoTranCompra>
+<TpoTranVenta>1</TpoTranVenta>
+<FmaPago>2</FmaPago>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76487348-3</RUTEmisor>
+<RznSoc>CHILEAN PROJECT LOGISTIC SPA</RznSoc>
+<GiroEmis>TRANSPORTE DE CARGA, LOGISTICA, SERV PORTUARIOS LAVADO BODEGA</GiroEmis>
+<CorreoEmisor>CONTACTO@CPLOGISTIC.CL</CorreoEmisor>
+<Acteco>492300</Acteco>
+<CdgSIISucur>079236093</CdgSIISucur>
+<DirOrigen>Avenida Los Leones 2255  504</DirOrigen>
+<CmnaOrigen>PROVIDENCIA</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76006532-3</RUTRecep>
+<RznSocRecep>AIRSEALOGISTICS SPA</RznSocRecep>
+<GiroRecep>OTRAS ACTIVIDADES DE APOYO AL TRANSPORTE</GiroRecep>
+<DirRecep>NUEVA DE LYON 72  1501</DirRecep>
+<CmnaRecep>PROVIDENCIA</CmnaRecep>
+<CiudadRecep>STGO</CiudadRecep>
+</Receptor>
+<Transporte></Transporte>
+<Totales>
+<MntNeto>990000</MntNeto>
+<TasaIVA>19.00</TasaIVA>
+<IVA>188100</IVA>
+<MntTotal>1178100</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>SERVICIOS SEGUN REF:</NmbItem>
+<DscItem>UNIDADES: UACU8445556; HLXU5296730; UACU 521251-9 
+REF: VIRGO</DscItem>
+<QtyItem>3.00</QtyItem>
+<PrcItem>270000.00</PrcItem>
+<MontoItem>810000</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<NmbItem>ESTADIA</NmbItem>
+<QtyItem>3.00</QtyItem>
+<PrcItem>60000.00</PrcItem>
+<MontoItem>180000</MontoItem>
+</Detalle>
+<TED version="1.0">
+<DD>
+<RE>76487348-3</RE>
+<TD>33</TD>
+<F>12801</F>
+<FE>2022-06-28</FE>
+<RR>76006532-3</RR>
+<RSR>AIRSEALOGISTICS SPA</RSR>
+<MNT>1178100</MNT>
+<IT1>SERVICIOS SEGUN REF:</IT1>
+<CAF version="1.0">
+<DA>
+<RE>76487348-3</RE>
+<RS>CHILEAN PROJECT LOGISTIC SPA</RS>
+<TD>33</TD>
+<RNG>
+<D>12801</D>
+<H>12801</H>
+</RNG>
+<FA>2022-06-28</FA>
+<RSAPK>
+<M>uKAASQqa1GOyK783VvhhSlUnOCV0FzwfdnI34V8YgyV4qtIJMSh045aVJ+ED2B5mX+eB+JACfxBVTkWIEWvitQ==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">AEA1cWSfe+VPcyVzC90h/B6BrEsqWcWxlUOFhNkIQ4ym8rpDL6TTkZaY++IyZRMXzHaTd7zTTcPPE9VdW2y55Q==</FRMA>
+</CAF>
+<TSTED>2022-06-28T17:05:51</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">iM8x1TjtJmgnfz3nEGgy2kGAyucocpULGnq5UsPRGZ9mUB1KwJb9rgZsD5xIZggHdTCt3JeTe8wuYyuNfsKgZA==</FRMT>
+</TED>
+<TmstFirma>2022-06-28T17:05:51</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#MiPE76487348-15100">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>IHtu1ENIvVk8nhrmjZfBcp1Y9iM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>B4MgJqZw6Qu5Wfs9908AhSPrJdL7LfaUn9HQNT5hK5+iadZdXYZ7/b+lNYE/ZBtC9/nqRvKD+ciO
+udv/CqUjoty0ej60rzzOzHmKpdMvnwP08ztYL/ScwuX9RIRn0wb7wCgj4QOJBqlGNsZpIU5mQiHc
+HL8WI9rLMNKD1S+PAKjChF6taJAcC8TECi+LpEArtECR3VQkJwHnZ58eex0ouQNUf0jutlaS+7Sn
+kGBqxgbvnAM+dnwxmxfUM+TfV0lPeu73a13dkAHV47ZWBc3EgCu3H2vixweiY4y+tYj7A5aekfK7
+uENqujEBBrB4rr+wcjotFuHrQA6dx/nc5oZRog==</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>sKXEzpvbokxt8wiNhwdbLrs9LdXl1YrZCw0zQ8GEixNX0uXek33smtvwV8JMXyzC3T4UTuypg6Np
+W2kDgVjj27l23r7A+ufYS/Rtqns1+zVjhr4Yzl1BhlDZ2p34j0ti8gWyCIVmz3+ldG6mdY8BASjL
+nBPvdBx+dEepSoyG08NY1m+ZPYx6FfmhzENqU9Sl8AEOEnchioPi0mAoCgTUGMExaoHBwEoWAxtW
+BWpVNQlxoT8EfHrYY1EqpFAVm7LK5lbTLwQMLhCb7kvO2rbV01suZHr3Rwb41Zsp5QzDF6urIv2O
+f0XUIQLwhv5BsQ8iRaaQIb8kfMcGadvGvjpToQ==</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIGczCCBVugAwIBAgIDBHQqMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMDA0MTMxODAwMTVaFw0yMzA0MTMx
+ODAwMTVaMIGHMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSEwHwYDVQQD
+ExhBTkRSRUEgSVNBQkVMIE1JRVJFUyBBTFkxJjAkBgkqhkiG9w0BCQEWF3Rlc29yZXJpYUBjcGxv
+Z2lzdGljLmNsMRMwEQYDVQQFEwoxNTcxNjk3Ni05MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAsKXEzpvbokxt8wiNhwdbLrs9LdXl1YrZCw0zQ8GEixNX0uXek33smtvwV8JMXyzC3T4U
+Tuypg6NpW2kDgVjj27l23r7A+ufYS/Rtqns1+zVjhr4Yzl1BhlDZ2p34j0ti8gWyCIVmz3+ldG6m
+dY8BASjLnBPvdBx+dEepSoyG08NY1m+ZPYx6FfmhzENqU9Sl8AEOEnchioPi0mAoCgTUGMExaoHB
+wEoWAxtWBWpVNQlxoT8EfHrYY1EqpFAVm7LK5lbTLwQMLhCb7kvO2rbV01suZHr3Rwb41Zsp5QzD
+F6urIv2Of0XUIQLwhv5BsQ8iRaaQIb8kfMcGadvGvjpToQIDAQABo4ICxTCCAsEwHwYDVR0jBBgw
+FoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFGdgbVwM6ojVo/idI0jbETojKDqTMAsG
+A1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQD
+AgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRwczovL2Fj
+ZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2VwdGEuY29t
+IFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9ubGluZSwg
+cXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRhcmlvLCBw
+YWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5NjkxOTA1
+MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRhLmNv
+bTBiBgNVHREEWzBZoBgGCCsGAQQBwQEBoAwWCjE1NzE2OTc2LTmgJAYIKwYBBQUHCAOgGDAWDAox
+NTcxNjk3Ni05BggrBgEEAcEBAoEXdGVzb3JlcmlhQGNwbG9naXN0aWMuY2wwRwYIKwYBBQUHAQEE
+OzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2Uy
+LUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0Ns
+YXNlMi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBACRiF0ciCnydePu0OR+QFqYm+oMkjk4OfHwV
+0PBgr7x5Rbqm08oLa8CsLMr6QBJF1b9xqJiglL/dBo3Z5fzCTk6oIUgiOCvysCGXT4sQG2WB6CrP
+d2DFYavx0gm3sbodkkQr6wQxvK8NQlYG94P9LJaOrAFCKs5KoOFo28kHGKh13kiPn37YxRrdAwj3
+e8MwFYgLQlPzXqq9Tro3rMlTamBLQ9mPEViyQRNmyZmglXFzC82E6D+1dNGBbR9BKlwMDg5TiiIr
+96U04wXe2L4GKeeCuOSySXkWLnZyUyjIabaBrPNH7v3Pz7Ad8TIlfU/wDfFM82FbRWZKxC6KXc5t
+d9A=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE version="1.0" xmlns="http://www.sii.cl/SiiDte">
+<!--O Win32 Chrome 102 central VERSION: v20190409-->
+<Documento ID="MiPE76487348-9545">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>12771</Folio>
+<FchEmis>2022-06-01</FchEmis>
+<TpoTranCompra>1</TpoTranCompra>
+<TpoTranVenta>1</TpoTranVenta>
+<FmaPago>2</FmaPago>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76487348-3</RUTEmisor>
+<RznSoc>CHILEAN PROJECT LOGISTIC SPA</RznSoc>
+<GiroEmis>TRANSPORTE DE CARGA, LOGISTICA, SERV PORTUARIOS LAVADO BODEGA</GiroEmis>
+<CorreoEmisor>CONTACTO@CPLOGISTIC.CL</CorreoEmisor>
+<Acteco>492300</Acteco>
+<CdgSIISucur>079236093</CdgSIISucur>
+<DirOrigen>Avenida Los Leones 2255  504</DirOrigen>
+<CmnaOrigen>PROVIDENCIA</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76006532-3</RUTRecep>
+<RznSocRecep>AIRSEALOGISTICS SPA</RznSocRecep>
+<GiroRecep>OTRAS ACTIVIDADES DE APOYO AL TRANSPORTE</GiroRecep>
+<DirRecep>NUEVA DE LYON 72  1501</DirRecep>
+<CmnaRecep>PROVIDENCIA</CmnaRecep>
+<CiudadRecep>STGO</CiudadRecep>
+</Receptor>
+<Transporte></Transporte>
+<Totales>
+<MntNeto>810000</MntNeto>
+<TasaIVA>19.00</TasaIVA>
+<IVA>153900</IVA>
+<MntTotal>963900</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>SERVICIOS SEGUN REF:</NmbItem>
+<DscItem>UNIDADES: HLBU3388656; BMOU4010251; GESU5656737
+REF: VIRGO</DscItem>
+<QtyItem>3.00</QtyItem>
+<PrcItem>270000.00</PrcItem>
+<MontoItem>810000</MontoItem>
+</Detalle>
+<TED version="1.0">
+<DD>
+<RE>76487348-3</RE>
+<TD>33</TD>
+<F>12771</F>
+<FE>2022-06-01</FE>
+<RR>76006532-3</RR>
+<RSR>AIRSEALOGISTICS SPA</RSR>
+<MNT>963900</MNT>
+<IT1>SERVICIOS SEGUN REF:</IT1>
+<CAF version="1.0">
+<DA>
+<RE>76487348-3</RE>
+<RS>CHILEAN PROJECT LOGISTIC SPA</RS>
+<TD>33</TD>
+<RNG>
+<D>12771</D>
+<H>12771</H>
+</RNG>
+<FA>2022-06-01</FA>
+<RSAPK>
+<M>tBqkF2Wci9wGqWeTKHAkfIbCKrTWlRbqyPuXSQEHzpuETpd9W18O1wnw5cHBhP3+PSqsKE3gtwQEAZC7WyOwaQ==</M>
+<E>Aw==</E>
+</RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">P4+H6eOmxlPH1QWbQD1Sptcl158+GsETvq2L0TwkkgnfGuxJCWWy4ZWgHeYuc9+ZQBm/krqEfzq53wUsI/ZUog==</FRMA>
+</CAF>
+<TSTED>2022-06-01T18:13:04</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">qMe1tlwYzdMKVmaD0dLuyXbw6dyzB/EZ72Z0HqqcFR7dIUqRQe2uVHf+mhvcOWluK3XrD9yJzPYAO9EjP2Z2mQ==</FRMT>
+</TED>
+<TmstFirma>2022-06-01T18:13:04</TmstFirma>
+</Documento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#MiPE76487348-9545">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>WEqZuRaNc1wffTk06gJG0QZ3jGk=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>ZG95JhKeZ3RPof09qBxRp+xv8iyhJhZ8Z9YVPIeDPlLA1zfudQBUlptihbdmC9KgPbPsXCzOtjxh
+rldAczIJOLBVuGdseIo6yU9t43WUbpNtiU/VD9XkWIR5XHvKfrMYRPD14oRONeNFM9LEHTImB+FS
+4vdXXwIrlQyVcQUEUpVH1l48SG6KMIEiRyLsvBN7o3yX/PsZGrHhD3AhvmMa5p8B7k9btH5Pw2vo
+smYr2iZKOlcZYZRbFURKz9epwQ3zO7K0SMxfzkAzACXMbWf5RHGbU5AP7HOYGKdm1P3aPS+uX/9E
+lQl5Dq7/IJGfbeDokktNOaeceMc+Kz/ib0bzlQ==</SignatureValue>
+<KeyInfo>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>sKXEzpvbokxt8wiNhwdbLrs9LdXl1YrZCw0zQ8GEixNX0uXek33smtvwV8JMXyzC3T4UTuypg6Np
+W2kDgVjj27l23r7A+ufYS/Rtqns1+zVjhr4Yzl1BhlDZ2p34j0ti8gWyCIVmz3+ldG6mdY8BASjL
+nBPvdBx+dEepSoyG08NY1m+ZPYx6FfmhzENqU9Sl8AEOEnchioPi0mAoCgTUGMExaoHBwEoWAxtW
+BWpVNQlxoT8EfHrYY1EqpFAVm7LK5lbTLwQMLhCb7kvO2rbV01suZHr3Rwb41Zsp5QzDF6urIv2O
+f0XUIQLwhv5BsQ8iRaaQIb8kfMcGadvGvjpToQ==</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+<X509Data>
+<X509Certificate>MIIGczCCBVugAwIBAgIDBHQqMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0yMDA0MTMxODAwMTVaFw0yMzA0MTMx
+ODAwMTVaMIGHMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSEwHwYDVQQD
+ExhBTkRSRUEgSVNBQkVMIE1JRVJFUyBBTFkxJjAkBgkqhkiG9w0BCQEWF3Rlc29yZXJpYUBjcGxv
+Z2lzdGljLmNsMRMwEQYDVQQFEwoxNTcxNjk3Ni05MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAsKXEzpvbokxt8wiNhwdbLrs9LdXl1YrZCw0zQ8GEixNX0uXek33smtvwV8JMXyzC3T4U
+Tuypg6NpW2kDgVjj27l23r7A+ufYS/Rtqns1+zVjhr4Yzl1BhlDZ2p34j0ti8gWyCIVmz3+ldG6m
+dY8BASjLnBPvdBx+dEepSoyG08NY1m+ZPYx6FfmhzENqU9Sl8AEOEnchioPi0mAoCgTUGMExaoHB
+wEoWAxtWBWpVNQlxoT8EfHrYY1EqpFAVm7LK5lbTLwQMLhCb7kvO2rbV01suZHr3Rwb41Zsp5QzD
+F6urIv2Of0XUIQLwhv5BsQ8iRaaQIb8kfMcGadvGvjpToQIDAQABo4ICxTCCAsEwHwYDVR0jBBgw
+FoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFGdgbVwM6ojVo/idI0jbETojKDqTMAsG
+A1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQD
+AgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRwczovL2Fj
+ZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2VwdGEuY29t
+IFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9ubGluZSwg
+cXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRhcmlvLCBw
+YWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5NjkxOTA1
+MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRhLmNv
+bTBiBgNVHREEWzBZoBgGCCsGAQQBwQEBoAwWCjE1NzE2OTc2LTmgJAYIKwYBBQUHCAOgGDAWDAox
+NTcxNjk3Ni05BggrBgEEAcEBAoEXdGVzb3JlcmlhQGNwbG9naXN0aWMuY2wwRwYIKwYBBQUHAQEE
+OzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2Uy
+LUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0Ns
+YXNlMi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBACRiF0ciCnydePu0OR+QFqYm+oMkjk4OfHwV
+0PBgr7x5Rbqm08oLa8CsLMr6QBJF1b9xqJiglL/dBo3Z5fzCTk6oIUgiOCvysCGXT4sQG2WB6CrP
+d2DFYavx0gm3sbodkkQr6wQxvK8NQlYG94P9LJaOrAFCKs5KoOFo28kHGKh13kiPn37YxRrdAwj3
+e8MwFYgLQlPzXqq9Tro3rMlTamBLQ9mPEViyQRNmyZmglXFzC82E6D+1dNGBbR9BKlwMDg5TiiIr
+96U04wXe2L4GKeeCuOSySXkWLnZyUyjIabaBrPNH7v3Pz7Ad8TIlfU/wDfFM82FbRWZKxC6KXc5t
+d9A=</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</DTE>

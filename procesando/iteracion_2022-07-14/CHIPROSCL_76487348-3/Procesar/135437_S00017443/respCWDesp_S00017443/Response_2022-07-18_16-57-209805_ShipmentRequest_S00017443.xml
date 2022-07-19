@@ -1,0 +1,2546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UniversalResponse version="1.1" xmlns="http://www.cargowise.com/Schemas/Universal/2011/11">
+  <Status>PRS</Status>
+  <Data><UniversalShipment xmlns="http://www.cargowise.com/Schemas/Universal/2011/11" version="1.1">
+  <Shipment>
+    <DataContext>
+      <DataSourceCollection>
+        <DataSource>
+          <Type>ForwardingConsol</Type>
+          <Key>C00013646</Key>
+        </DataSource>
+        <DataSource>
+          <Type>ForwardingShipment</Type>
+          <Key>S00017443</Key>
+        </DataSource>
+      </DataSourceCollection>
+
+      <Company>
+        <Code>SCL</Code>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Name>AirSeaLogistics SPA</Name>
+      </Company>
+      <DataProvider>A5LPRDSCL</DataProvider>
+      <EnterpriseID>A5L</EnterpriseID>
+      <ServerID>PRD</ServerID>
+    </DataContext>
+
+    <AgentsReference></AgentsReference>
+    <AWBServiceLevel>
+      <Code>STD</Code>
+      <Description>Standard</Description>
+    </AWBServiceLevel>
+    <BookingConfirmationReference></BookingConfirmationReference>
+    <CarrierBookingLatestDate></CarrierBookingLatestDate>
+    <CarrierBookingLatestStatus>
+      <Code>NSN</Code>
+      <Description>Not Sent</Description>
+    </CarrierBookingLatestStatus>
+    <CarrierBookingOffice>
+      <Code>CLSCL</Code>
+      <Name>Santiago</Name>
+    </CarrierBookingOffice>
+    <CarrierContractNumber></CarrierContractNumber>
+    <ChargeableRate>0.0000</ChargeableRate>
+    <CoLoadBookingConfirmationReference></CoLoadBookingConfirmationReference>
+    <CoLoadMasterBillNumber>HBL7362</CoLoadMasterBillNumber>
+    <ContainerCount>1</ContainerCount>
+    <ContainerMode>
+      <Code>LCL</Code>
+      <Description>Less Container Load</Description>
+    </ContainerMode>
+    <DocumentedChargeable>0.1</DocumentedChargeable>
+    <DocumentedVolume>0.1</DocumentedVolume>
+    <DocumentedWeight>30.84</DocumentedWeight>
+    <FreightRate>0.0000</FreightRate>
+    <FreightRateCurrency>
+      <Code>CLP</Code>
+      <Description>Chilean Peso</Description>
+    </FreightRateCurrency>
+    <IsCFSRegistered>false</IsCFSRegistered>
+    <IsDirectBooking>false</IsDirectBooking>
+    <IsForwardRegistered>true</IsForwardRegistered>
+    <IsHazardous>false</IsHazardous>
+    <IsNeutralMaster>false</IsNeutralMaster>
+    <LloydsIMO>9294408</LloydsIMO>
+    <ManifestedChargeable>0.1</ManifestedChargeable>
+    <ManifestedVolume>0.1</ManifestedVolume>
+    <ManifestedWeight>30.84</ManifestedWeight>
+    <MaximumAllowablePackageHeight>0.000</MaximumAllowablePackageHeight>
+    <MaximumAllowablePackageLength>0.000</MaximumAllowablePackageLength>
+    <MaximumAllowablePackageLengthUnit>
+      <Code></Code>
+    </MaximumAllowablePackageLengthUnit>
+    <MaximumAllowablePackageWidth>0.000</MaximumAllowablePackageWidth>
+    <NoCopyBills>3</NoCopyBills>
+    <NoOriginalBills>3</NoOriginalBills>
+    <OuterPacks>0</OuterPacks>
+    <PaymentMethod>
+      <Code></Code>
+    </PaymentMethod>
+    <PlaceOfDelivery>
+      <Code>CLSAI</Code>
+      <Name>San Antonio</Name>
+    </PlaceOfDelivery>
+    <PlaceOfIssue>
+      <Code>CLLCO</Code>
+      <Name>Las Condes</Name>
+    </PlaceOfIssue>
+    <PlaceOfReceipt>
+      <Code>USNTD</Code>
+      <Name>Port Hueneme</Name>
+    </PlaceOfReceipt>
+    <PortFirstForeign>
+      <Code></Code>
+    </PortFirstForeign>
+    <PortLastForeign>
+      <Code></Code>
+    </PortLastForeign>
+    <PortOfDischarge>
+      <Code>CLSAI</Code>
+      <Name>San Antonio</Name>
+    </PortOfDischarge>
+    <PortOfFirstArrival>
+      <Code></Code>
+    </PortOfFirstArrival>
+    <PortOfLoading>
+      <Code>USNTD</Code>
+      <Name>Port Hueneme</Name>
+    </PortOfLoading>
+    <ReceivingForwarderHandlingType>
+      <Code></Code>
+    </ReceivingForwarderHandlingType>
+    <ReleaseType>
+      <Code></Code>
+    </ReleaseType>
+    <RequiresTemperatureControl>false</RequiresTemperatureControl>
+    <ScreeningStatus>
+      <Code>NOT</Code>
+      <Description>Not Screened</Description>
+    </ScreeningStatus>
+    <SendingForwarderHandlingType>
+      <Code></Code>
+    </SendingForwarderHandlingType>
+    <ShipmentType>
+      <Code>CLD</Code>
+      <Description>Co-Load</Description>
+    </ShipmentType>
+    <TotalNoOfPacks>2</TotalNoOfPacks>
+    <TotalNoOfPacksPackageType>
+      <Code>PKG</Code>
+      <Description>Package</Description>
+    </TotalNoOfPacksPackageType>
+    <TotalPreallocatedChargeable>0.000</TotalPreallocatedChargeable>
+    <TotalPreallocatedVolume>0.000</TotalPreallocatedVolume>
+    <TotalPreallocatedVolumeUnit>
+      <Code></Code>
+    </TotalPreallocatedVolumeUnit>
+    <TotalPreallocatedWeight>0.000</TotalPreallocatedWeight>
+    <TotalPreallocatedWeightUnit>
+      <Code></Code>
+    </TotalPreallocatedWeightUnit>
+    <TotalVolume>0.1</TotalVolume>
+    <TotalVolumeUnit>
+      <Code>M3</Code>
+      <Description>Cubic Meters</Description>
+    </TotalVolumeUnit>
+    <TotalWeight>30.84</TotalWeight>
+    <TotalWeightUnit>
+      <Code>KG</Code>
+      <Description>Kilograms</Description>
+    </TotalWeightUnit>
+    <TransportMode>
+      <Code>SEA</Code>
+      <Description>Sea Freight</Description>
+    </TransportMode>
+    <VesselName>MAERSK LAUNCESTON</VesselName>
+    <VoyageFlightNo>225S</VoyageFlightNo>
+    <WayBillNumber>SEAU218280199</WayBillNumber>
+    <WayBillType>
+      <Code>MWB</Code>
+      <Description>Master Waybill</Description>
+    </WayBillType>
+    <ContainerCollection Content="Complete">
+      <Container>
+        <AirVentFlow>0.0</AirVentFlow>
+        <AirVentFlowRateUnit>
+          <Code></Code>
+        </AirVentFlowRateUnit>
+        <ArrivalCartageAdvised></ArrivalCartageAdvised>
+        <ArrivalCartageComplete></ArrivalCartageComplete>
+        <ArrivalCartageDemurrageTime></ArrivalCartageDemurrageTime>
+        <ArrivalCartageRef></ArrivalCartageRef>
+        <ArrivalCTOStorageStartDate></ArrivalCTOStorageStartDate>
+        <ArrivalDeliveryRequiredBy></ArrivalDeliveryRequiredBy>
+        <ArrivalEstimatedDelivery></ArrivalEstimatedDelivery>
+        <ArrivalPickupByRail>false</ArrivalPickupByRail>
+        <ArrivalSlotDateTime></ArrivalSlotDateTime>
+        <ArrivalSlotReference></ArrivalSlotReference>
+        <ArrivalTruckWaitTime></ArrivalTruckWaitTime>
+        <Commodity>
+          <Code></Code>
+        </Commodity>
+        <ContainerCount>1</ContainerCount>
+        <ContainerImportDORelease></ContainerImportDORelease>
+        <ContainerNumber>MNBU0070640</ContainerNumber>
+        <ContainerParkEmptyPickupGateOut></ContainerParkEmptyPickupGateOut>
+        <ContainerParkEmptyReturnGateIn></ContainerParkEmptyReturnGateIn>
+        <ContainerQuality>
+          <Code></Code>
+        </ContainerQuality>
+        <ContainerStatus>
+          <Code></Code>
+        </ContainerStatus>
+        <ContainerType>
+          <Code>40RE</Code>
+          <Category>
+            <Code>RFG</Code>
+            <Description>Refrigerated</Description>
+          </Category>
+          <Description>Forty foot reefer</Description>
+          <ISOCode>42R0</ISOCode>
+        </ContainerType>
+        <DeliveryMode>CFS/CFS</DeliveryMode>
+        <DeliverySequence>0</DeliverySequence>
+        <DepartureCartageAdvised></DepartureCartageAdvised>
+        <DepartureCartageComplete></DepartureCartageComplete>
+        <DepartureCartageDemurrageTime></DepartureCartageDemurrageTime>
+        <DepartureCartageRef></DepartureCartageRef>
+        <DepartureDeliveryByRail>false</DepartureDeliveryByRail>
+        <DepartureDockReceipt></DepartureDockReceipt>
+        <DepartureEstimatedPickup></DepartureEstimatedPickup>
+        <DepartureSlotDateTime></DepartureSlotDateTime>
+        <DepartureSlotReference></DepartureSlotReference>
+        <DepartureTruckWaitTime></DepartureTruckWaitTime>
+        <DunnageWeight>0.000</DunnageWeight>
+        <EmptyReadyForReturn></EmptyReadyForReturn>
+        <EmptyRequired></EmptyRequired>
+        <EmptyReturnedBy></EmptyReturnedBy>
+        <EmptyReturnRef></EmptyReturnRef>
+        <ExportDepotCustomsReference></ExportDepotCustomsReference>
+        <FCL_LCL_AIR>
+          <Code>LCL</Code>
+          <Description>Less Container Load</Description>
+        </FCL_LCL_AIR>
+        <FCLAvailable></FCLAvailable>
+        <FCLHeldInTransitStaging>false</FCLHeldInTransitStaging>
+        <FCLOnBoardVessel></FCLOnBoardVessel>
+        <FCLStorageArrivedUnderbond>false</FCLStorageArrivedUnderbond>
+        <FCLStorageCommences></FCLStorageCommences>
+        <FCLStorageModuleOnlyMaster></FCLStorageModuleOnlyMaster>
+        <FCLStorageUnderbondCleared></FCLStorageUnderbondCleared>
+        <FCLUnloadFromVessel></FCLUnloadFromVessel>
+        <FCLWharfGateIn></FCLWharfGateIn>
+        <FCLWharfGateOut></FCLWharfGateOut>
+        <GoodsValue>0.0000</GoodsValue>
+        <GoodsValueCurrency>
+          <Code></Code>
+        </GoodsValueCurrency>
+        <GoodsWeight>30.84</GoodsWeight>
+        <GrossWeight>30.840</GrossWeight>
+        <GrossWeightVerificationType>
+          <Code>NON</Code>
+          <Description>Not Verified</Description>
+        </GrossWeightVerificationType>
+        <HumidityPercent>0</HumidityPercent>
+        <ImportDepotCustomsReference></ImportDepotCustomsReference>
+        <IsCFSRegistered>false</IsCFSRegistered>
+        <IsControlledAtmosphere>true</IsControlledAtmosphere>
+        <IsDamaged>false</IsDamaged>
+        <IsEmptyContainer>false</IsEmptyContainer>
+        <IsSealOk>true</IsSealOk>
+        <IsShipperOwned>false</IsShipperOwned>
+        <LCLAvailable></LCLAvailable>
+        <LCLStorageCommences></LCLStorageCommences>
+        <LCLUnpack></LCLUnpack>
+        <LengthUnit>
+          <Code>FT</Code>
+          <Description>Feet</Description>
+        </LengthUnit>
+        <Link>1</Link>
+        <OverhangBack>0.000</OverhangBack>
+        <OverhangFront>0</OverhangFront>
+        <OverhangHeight>0</OverhangHeight>
+        <OverhangLeft>0</OverhangLeft>
+        <OverhangRight>0.000</OverhangRight>
+        <OverrideFCLAvailableStorage>false</OverrideFCLAvailableStorage>
+        <OverrideLCLAvailableStorage>false</OverrideLCLAvailableStorage>
+        <PackDate></PackDate>
+        <RefrigGeneratorID></RefrigGeneratorID>
+        <ReleaseNum></ReleaseNum>
+        <Seal>UL556677</Seal>
+        <SealPartyType>
+          <Code>CAR</Code>
+          <Description>Carrier/Shipping Line</Description>
+        </SealPartyType>
+        <SecondSeal></SecondSeal>
+        <SecondSealPartyType>
+          <Code></Code>
+        </SecondSealPartyType>
+        <SetPointTemp>0.000</SetPointTemp>
+        <SetPointTempUnit></SetPointTempUnit>
+        <StowagePosition></StowagePosition>
+        <TareWeight>0.000</TareWeight>
+        <TempRecorderSerialNo></TempRecorderSerialNo>
+        <ThirdSeal></ThirdSeal>
+        <ThirdSealPartyType>
+          <Code></Code>
+        </ThirdSealPartyType>
+        <TotalHeight>8.500</TotalHeight>
+        <TotalLength>40.000</TotalLength>
+        <TotalWidth>8.000</TotalWidth>
+        <TrainWagonNumber></TrainWagonNumber>
+        <UnpackGang></UnpackGang>
+        <UnpackShed></UnpackShed>
+        <VolumeCapacity>0.000</VolumeCapacity>
+        <VolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Meters</Description>
+        </VolumeUnit>
+        <WeightCapacity>0.000</WeightCapacity>
+        <WeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </WeightUnit>
+      </Container>
+    </ContainerCollection>
+    <CustomizedFieldCollection>
+      <CustomizedField>
+        <DataType>String</DataType>
+        <Key>Stacking</Key>
+        <Value></Value>
+      </CustomizedField>
+    </CustomizedFieldCollection>
+    <DateCollection>
+      <Date>
+        <Type>ShippedOnBoard</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>BillIssued</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>FirstArrivalInCountry</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>FirstForeignArrival</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>LastForeignDeparture</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>CutOffDate</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>DepartureReceiptRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>ArrivalReceiptRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>DepartureDispatchRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+      <Date>
+        <Type>ArrivalDispatchRequested</Type>
+        <IsEstimate>false</IsEstimate>
+        <Value></Value>
+      </Date>
+    </DateCollection>
+    <MilestoneCollection>
+      <Milestone>
+        <Description>Cargo Available</Description>
+        <EventCode>CAV</EventCode>
+        <Sequence>1</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference></ConditionReference>
+        <ConditionType></ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Cut-off Date</Description>
+        <EventCode>COF</EventCode>
+        <Sequence>2</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Origin&gt;</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure From Origin</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>1</Sequence>
+        <ActualDate>2022-06-01T00:00:00</ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-01T00:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival to 1st transport Leg</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>2</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-16T00:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival to 2st transport Leg</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>3</Sequence>
+        <ActualDate>2022-06-30T22:48:00</ActualDate>
+        <ConditionReference>LOC=&lt;SecondLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-30T23:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure from 2nd Transport Leg</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>4</Sequence>
+        <ActualDate>2022-06-23T07:59:00</ActualDate>
+        <ConditionReference>LOC=&lt;SecondLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-23T00:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival to 3st transport Leg</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>5</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;ThirdLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure from 3nd Transport Leg</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>6</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;ThirdLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure from 4nd Transport Leg</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>7</Sequence>
+        <ActualDate></ActualDate>
+        <ConditionReference>LOC=&lt;FourthLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate></EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival at Final Discharge Port</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>8</Sequence>
+        <ActualDate>2022-06-30T22:48:00</ActualDate>
+        <ConditionReference>LOC=&lt;LastLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-30T23:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Departure from First Load Port</Description>
+        <EventCode>DEP</EventCode>
+        <Sequence>1</Sequence>
+        <ActualDate>2022-06-01T00:00:00</ActualDate>
+        <ConditionReference>LOC=&lt;FirstLeg.Origin&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-01T00:00:00</EstimatedDate>
+      </Milestone>
+      <Milestone>
+        <Description>Arrival at Final Discharge Port</Description>
+        <EventCode>ARV</EventCode>
+        <Sequence>6</Sequence>
+        <ActualDate>2022-06-30T22:48:00</ActualDate>
+        <ConditionReference>LOC=&lt;LastLeg.Destination&gt;,FAC=CTO</ConditionReference>
+        <ConditionType>RFP</ConditionType>
+        <EstimatedDate>2022-06-30T23:00:00</EstimatedDate>
+      </Milestone>
+    </MilestoneCollection>
+    <OrganizationAddressCollection>
+      <OrganizationAddress>
+        <AddressType>Creditor</AddressType>
+        <Address1>EVARISTO LILLO 78 PISO 6</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>EVARISTO LILLO 78 PISO 6</AddressShortCode>
+        <City>SANTIAGO</City>
+        <CompanyName>PLUSCARGO CHILE SPA</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email>daniel.pinones@pluscargochile.cl</Email>
+        <Fax></Fax>
+        <GovRegNum>76051369-5</GovRegNum>
+        <GovRegNumType>
+          <Code>RUT</Code>
+          <Description>RUT / Tax Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>PLUCHISCL</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CLSCL</Code>
+          <Name>Santiago</Name>
+        </Port>
+        <Postcode>7580110</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GEM</Code>
+              <Description>Giro Empresa / Business Activity De</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </CountryOfIssue>
+            <Value>OTRAS ACTIVIDADES CONEXAS AL TRANSP</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>CoLoadWith</AddressType>
+        <Address1>EVARISTO LILLO 78 PISO 6</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>EVARISTO LILLO 78 PISO 6</AddressShortCode>
+        <City>SANTIAGO</City>
+        <CompanyName>PLUSCARGO CHILE SPA</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email>daniel.pinones@pluscargochile.cl</Email>
+        <Fax></Fax>
+        <GovRegNum>76051369-5</GovRegNum>
+        <GovRegNumType>
+          <Code>RUT</Code>
+          <Description>RUT / Tax Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>PLUCHISCL</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CLSCL</Code>
+          <Name>Santiago</Name>
+        </Port>
+        <Postcode>7580110</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GEM</Code>
+              <Description>Giro Empresa / Business Activity De</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </CountryOfIssue>
+            <Value>OTRAS ACTIVIDADES CONEXAS AL TRANSP</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ReceivingForwarderAddress</AddressType>
+        <Address1>Nueva de Lyon 72 of 1501</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>Nueva de Lyon 72 of 1501</AddressShortCode>
+        <City>PROVIDENCIA</City>
+        <CompanyName>AirSeaLogistics SPA</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>76006532-3</GovRegNum>
+        <GovRegNumType>
+          <Code>RUT</Code>
+          <Description>RUT / Tax Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>AIRSEASCL</OrganizationCode>
+        <Phone>+56227546900</Phone>
+        <Port>
+          <Code>CLSCL</Code>
+          <Name>Santiago</Name>
+        </Port>
+        <Postcode>7500000</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GEM</Code>
+              <Description>Giro Empresa / Business Activity De</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </CountryOfIssue>
+            <Value>522990 - AGENCIAS DE TRANSPORTE</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ShippingLineAddress</AddressType>
+        <Address1>AVENIDA APOQUINDO 3650</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>AVENIDA APOQUINDO 3650</AddressShortCode>
+        <City>LAS CONDES</City>
+        <CompanyName>SEALAND - A MAERSK COMPANY</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <GovRegNum>96653890-2</GovRegNum>
+        <GovRegNumType>
+          <Code>RUT</Code>
+          <Description>RUT / Tax Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>SEAAMA_WW</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CLLCO</Code>
+          <Name>Las Condes</Name>
+        </Port>
+        <Postcode>7550000</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GEM</Code>
+              <Description>Giro Empresa / Business Activity De</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </CountryOfIssue>
+            <Value>TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>C1C</Code>
+              <Description>CargoWiseOne Carrier Code</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>C1SL</Value>
+          </RegistrationNumber>
+          <RegistrationNumber>
+            <Type>
+              <Code>CCC</Code>
+              <Description>Standard Carrier Alpha Code (Sea)</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </CountryOfIssue>
+            <Value>SEAU</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>SendingForwarderAddress</AddressType>
+        <Address1>EVARISTO LILLO 78 PISO 6</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>EVARISTO LILLO 78 PISO 6</AddressShortCode>
+        <City>SANTIAGO</City>
+        <CompanyName>PLUSCARGO CHILE SPA</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email>daniel.pinones@pluscargochile.cl</Email>
+        <Fax></Fax>
+        <GovRegNum>76051369-5</GovRegNum>
+        <GovRegNumType>
+          <Code>RUT</Code>
+          <Description>RUT / Tax Identification Number</Description>
+        </GovRegNumType>
+        <OrganizationCode>PLUCHISCL</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CLSCL</Code>
+          <Name>Santiago</Name>
+        </Port>
+        <Postcode>7580110</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+        <RegistrationNumberCollection>
+          <RegistrationNumber>
+            <Type>
+              <Code>GEM</Code>
+              <Description>Giro Empresa / Business Activity De</Description>
+            </Type>
+            <CountryOfIssue>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </CountryOfIssue>
+            <Value>OTRAS ACTIVIDADES CONEXAS AL TRANSP</Value>
+          </RegistrationNumber>
+        </RegistrationNumberCollection>
+      </OrganizationAddress>
+      <OrganizationAddress>
+        <AddressType>ArrivalCFSAddress</AddressType>
+        <Address1>PABLO NERUDA 289 BARRANCAS</Address1>
+        <Address2></Address2>
+        <AddressOverride>false</AddressOverride>
+        <AddressShortCode>PABLO NERUDA 289 BARRANCA</AddressShortCode>
+        <City>SAN ANTONIO</City>
+        <CompanyName>S.A.A.M. EXTRAPORTUARIOS S.A. (SAN ANTONIO)</CompanyName>
+        <Country>
+          <Code>CL</Code>
+          <Name>Chile</Name>
+        </Country>
+        <Email></Email>
+        <Fax></Fax>
+        <OrganizationCode>SAAEXTSAI</OrganizationCode>
+        <Phone></Phone>
+        <Port>
+          <Code>CLSAI</Code>
+          <Name>San Antonio</Name>
+        </Port>
+        <Postcode>0</Postcode>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <State Description="ValparaAso">VS</State>
+      </OrganizationAddress>
+    </OrganizationAddressCollection>
+    <SubShipmentCollection>
+      <SubShipment>
+        <DataContext>
+          <DataSourceCollection>
+            <DataSource>
+              <Type>ForwardingShipment</Type>
+              <Key>S00017443</Key>
+            </DataSource>
+          </DataSourceCollection>
+        </DataContext>
+
+        <ActualChargeable>0.100</ActualChargeable>
+        <AdditionalTerms></AdditionalTerms>
+        <BookingConfirmationReference></BookingConfirmationReference>
+        <CartageWaybillNumber></CartageWaybillNumber>
+        <CFSReference></CFSReference>
+        <CommunityTransitStatus>
+          <Code></Code>
+        </CommunityTransitStatus>
+        <ContainerCount>1</ContainerCount>
+        <ContainerMode>
+          <Code>LCL</Code>
+          <Description>Less Container Load</Description>
+        </ContainerMode>
+        <DocumentedChargeable>0.100</DocumentedChargeable>
+        <DocumentedVolume>0.100</DocumentedVolume>
+        <DocumentedWeight>30.840</DocumentedWeight>
+        <FreightRate>0.0000</FreightRate>
+        <FreightRateCurrency>
+          <Code></Code>
+        </FreightRateCurrency>
+        <GoodsDescription></GoodsDescription>
+        <GoodsValue>0.0000</GoodsValue>
+        <GoodsValueCurrency>
+          <Code>CLP</Code>
+          <Description>Chilean Peso</Description>
+        </GoodsValueCurrency>
+        <HBLAWBChargesDisplay>
+          <Code>SHW</Code>
+          <Description>Show Collect Charges</Description>
+        </HBLAWBChargesDisplay>
+        <HBLContainerPackModeOverride></HBLContainerPackModeOverride>
+        <HouseBillOfLadingType>
+          <Code>IAU</Code>
+          <Description>IT Club Australia</Description>
+        </HouseBillOfLadingType>
+        <InsuranceValue>0.0000</InsuranceValue>
+        <InsuranceValueCurrency>
+          <Code>CLP</Code>
+          <Description>Chilean Peso</Description>
+        </InsuranceValueCurrency>
+        <InterimReceiptNumber></InterimReceiptNumber>
+        <IsBooking>true</IsBooking>
+        <IsCancelled>false</IsCancelled>
+        <IsCFSRegistered>false</IsCFSRegistered>
+        <IsDirectBooking>false</IsDirectBooking>
+        <IsForwardRegistered>true</IsForwardRegistered>
+        <IsHighRisk>false</IsHighRisk>
+        <IsNeutralMaster>false</IsNeutralMaster>
+        <IsShipping>false</IsShipping>
+        <IsSplitShipment>false</IsSplitShipment>
+        <JobCosting>
+          <AccrualNotRecognized>0.0000</AccrualNotRecognized>
+          <AccrualRecognized>-43198.000000000</AccrualRecognized>
+          <AgentRevenue>0</AgentRevenue>
+          <Branch>
+            <Code>SCL</Code>
+            <Name>AirSeaLogistics SPA</Name>
+          </Branch>
+          <ClientContractNumber></ClientContractNumber>
+          <Currency>
+            <Code>CLP</Code>
+            <Description>Chilean Peso</Description>
+          </Currency>
+          <Department>
+            <Code>FIS</Code>
+            <Name>Forwarding Import Sea</Name>
+          </Department>
+          <HomeBranch>
+            <Code>SCL</Code>
+            <Name>AirSeaLogistics SPA</Name>
+          </HomeBranch>
+          <LocalClientRevenue>494865.0000</LocalClientRevenue>
+          <OperationsStaff>
+            <Code>DF</Code>
+            <Name>Deyanira Fuentealba</Name>
+          </OperationsStaff>
+          <OtherDebtorRevenue>0</OtherDebtorRevenue>
+          <SalesStaff>
+            <Code>JA</Code>
+            <Name>Juan Manuel Alcalde</Name>
+          </SalesStaff>
+          <TotalAccrual>-43198.000000000</TotalAccrual>
+          <TotalCost>-298471.000000000</TotalCost>
+          <TotalJobProfit>153196.000000000</TotalJobProfit>
+          <TotalRevenue>494865.000000000</TotalRevenue>
+          <TotalWIP>0.000000000</TotalWIP>
+          <WIPNotRecognized>0.0000</WIPNotRecognized>
+          <WIPRecognized>0.000000000</WIPRecognized>
+          <ChargeLineCollection>
+            <ChargeLine>
+              <Branch>
+                <Code>SCL</Code>
+                <Name>AirSeaLogistics SPA</Name>
+              </Branch>
+              <ChargeCode>
+                <Code>PIC</Code>
+                <Description>PIC &amp; UP</Description>
+              </ChargeCode>
+              <ChargeCodeGroup>
+                <Code>FRT</Code>
+                <Description>Freight</Description>
+              </ChargeCodeGroup>
+              <CostAPInvoiceNumber>38756</CostAPInvoiceNumber>
+              <CostDueDate>2022-07-30T00:00:00</CostDueDate>
+              <CostExchangeRate>863.950000000</CostExchangeRate>
+              <CostGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </CostGSTVATID>
+              <CostInvoiceDate>2022-06-16T00:00:00</CostInvoiceDate>
+              <CostIsPosted>true</CostIsPosted>
+              <CostLocalAmount>207348.0000</CostLocalAmount>
+              <CostOSAmount>240.0000</CostOSAmount>
+              <CostOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </CostOSCurrency>
+              <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+              <CostRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </CostRatingBehaviour>
+              <Creditor>
+                <Type>Organization</Type>
+                <Key>PLUCHISCL</Key>
+              </Creditor>
+              <Debtor>
+                <Type>Organization</Type>
+                <Key>SALCHISCL</Key>
+              </Debtor>
+              <Department>
+                <Code>FIS</Code>
+                <Name>Forwarding Import Sea</Name>
+              </Department>
+              <Description>PIC &amp; UP</Description>
+              <DisplaySequence>1</DisplaySequence>
+              <SellExchangeRate>963.215000000</SellExchangeRate>
+              <SellGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </SellGSTVATID>
+              <SellInvoiceType>ITC</SellInvoiceType>
+              <SellIsPosted>true</SellIsPosted>
+              <SellLocalAmount>192643.0000</SellLocalAmount>
+              <SellOSAmount>200.0000</SellOSAmount>
+              <SellOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </SellOSCurrency>
+              <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+              <SellPostedTransaction>
+
+                <DueDate>2022-07-30T00:00:00</DueDate>
+                <FullyPaidDate></FullyPaidDate>
+                <Number>00025646</Number>
+                <OutstandingAmount>474865.0000</OutstandingAmount>
+                <TransactionDate>2022-06-20T16:30:00</TransactionDate>
+                <TransactionType>INV</TransactionType>
+              </SellPostedTransaction>
+              <SellPostedTransactionNumber>00025646</SellPostedTransactionNumber>
+              <SellPostedTransactionType>INV</SellPostedTransactionType>
+              <SellRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </SellRatingBehaviour>
+              <CostRatingBasisCollection>
+              </CostRatingBasisCollection>
+              <SellRatingBasisCollection>
+              </SellRatingBasisCollection>
+            </ChargeLine>
+            <ChargeLine>
+              <Branch>
+                <Code>SCL</Code>
+                <Name>AirSeaLogistics SPA</Name>
+              </Branch>
+              <ChargeCode>
+                <Code>SFT</Code>
+                <Description>OCEAN FREIGHT</Description>
+              </ChargeCode>
+              <ChargeCodeGroup>
+                <Code>FRT</Code>
+                <Description>Freight</Description>
+              </ChargeCodeGroup>
+              <CostAPInvoiceNumber>38756</CostAPInvoiceNumber>
+              <CostDueDate>2022-07-30T00:00:00</CostDueDate>
+              <CostExchangeRate>863.950000000</CostExchangeRate>
+              <CostGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </CostGSTVATID>
+              <CostInvoiceDate>2022-06-16T00:00:00</CostInvoiceDate>
+              <CostIsPosted>true</CostIsPosted>
+              <CostLocalAmount>77756.0000</CostLocalAmount>
+              <CostOSAmount>90.0000</CostOSAmount>
+              <CostOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </CostOSCurrency>
+              <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+              <CostRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </CostRatingBehaviour>
+              <Creditor>
+                <Type>Organization</Type>
+                <Key>PLUCHISCL</Key>
+              </Creditor>
+              <Debtor>
+                <Type>Organization</Type>
+                <Key>SALCHISCL</Key>
+              </Debtor>
+              <Department>
+                <Code>FIS</Code>
+                <Name>Forwarding Import Sea</Name>
+              </Department>
+              <Description>OCEAN FREIGHT</Description>
+              <DisplaySequence>2</DisplaySequence>
+              <SellExchangeRate>963.215000000</SellExchangeRate>
+              <SellGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </SellGSTVATID>
+              <SellInvoiceType>ITC</SellInvoiceType>
+              <SellIsPosted>true</SellIsPosted>
+              <SellLocalAmount>234061.0000</SellLocalAmount>
+              <SellOSAmount>243.0000</SellOSAmount>
+              <SellOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </SellOSCurrency>
+              <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+              <SellPostedTransaction>
+
+                <DueDate>2022-07-30T00:00:00</DueDate>
+                <FullyPaidDate></FullyPaidDate>
+                <Number>00025646</Number>
+                <OutstandingAmount>474865.0000</OutstandingAmount>
+                <TransactionDate>2022-06-20T16:30:00</TransactionDate>
+                <TransactionType>INV</TransactionType>
+              </SellPostedTransaction>
+              <SellPostedTransactionNumber>00025646</SellPostedTransactionNumber>
+              <SellPostedTransactionType>INV</SellPostedTransactionType>
+              <SellRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </SellRatingBehaviour>
+              <CostRatingBasisCollection>
+              </CostRatingBasisCollection>
+              <SellRatingBasisCollection>
+              </SellRatingBasisCollection>
+            </ChargeLine>
+            <ChargeLine>
+              <Branch>
+                <Code>SCL</Code>
+                <Name>AirSeaLogistics SPA</Name>
+              </Branch>
+              <ChargeCode>
+                <Code>FOB</Code>
+                <Description>FOB CHARGES</Description>
+              </ChargeCode>
+              <ChargeCodeGroup>
+                <Code>FRT</Code>
+                <Description>Freight</Description>
+              </ChargeCodeGroup>
+              <CostAPInvoiceNumber>38756</CostAPInvoiceNumber>
+              <CostDueDate>2022-07-30T00:00:00</CostDueDate>
+              <CostExchangeRate>863.950000000</CostExchangeRate>
+              <CostGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </CostGSTVATID>
+              <CostInvoiceDate>2022-06-16T00:00:00</CostInvoiceDate>
+              <CostIsPosted>true</CostIsPosted>
+              <CostLocalAmount>10367.0000</CostLocalAmount>
+              <CostOSAmount>12.0000</CostOSAmount>
+              <CostOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </CostOSCurrency>
+              <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+              <CostRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </CostRatingBehaviour>
+              <Creditor>
+                <Type>Organization</Type>
+                <Key>PLUCHISCL</Key>
+              </Creditor>
+              <Debtor>
+                <Type>Organization</Type>
+                <Key>SALCHISCL</Key>
+              </Debtor>
+              <Department>
+                <Code>FIS</Code>
+                <Name>Forwarding Import Sea</Name>
+              </Department>
+              <Description>FOB CHARGES</Description>
+              <DisplaySequence>3</DisplaySequence>
+              <SellExchangeRate>1.000000000</SellExchangeRate>
+              <SellGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </SellGSTVATID>
+              <SellInvoiceType>ITC</SellInvoiceType>
+              <SellIsPosted>false</SellIsPosted>
+              <SellLocalAmount>0.0000</SellLocalAmount>
+              <SellOSAmount>0.0000</SellOSAmount>
+              <SellOSCurrency>
+                <Code>CLP</Code>
+                <Description>Chilean Peso</Description>
+              </SellOSCurrency>
+              <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+              <SellRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </SellRatingBehaviour>
+              <CostRatingBasisCollection>
+              </CostRatingBasisCollection>
+              <SellRatingBasisCollection>
+              </SellRatingBasisCollection>
+            </ChargeLine>
+            <ChargeLine>
+              <Branch>
+                <Code>SCL</Code>
+                <Name>AirSeaLogistics SPA</Name>
+              </Branch>
+              <ChargeCode>
+                <Code>DES</Code>
+                <Description>DESCONSOLIDACION</Description>
+              </ChargeCode>
+              <ChargeCodeGroup>
+                <Code>DST</Code>
+                <Description>Destination</Description>
+              </ChargeCodeGroup>
+              <CostAPInvoiceNumber>135437</CostAPInvoiceNumber>
+              <CostDueDate>2022-07-30T00:00:00</CostDueDate>
+              <CostExchangeRate>1.000000000</CostExchangeRate>
+              <CostGSTVATID>
+                <TaxCode>IVA</TaxCode>
+                <Description>Standard Rated</Description>
+              </CostGSTVATID>
+              <CostInvoiceDate>2022-06-16T00:00:00</CostInvoiceDate>
+              <CostIsPosted>true</CostIsPosted>
+              <CostLocalAmount>3000.0000</CostLocalAmount>
+              <CostOSAmount>3000.0000</CostOSAmount>
+              <CostOSCurrency>
+                <Code>CLP</Code>
+                <Description>Chilean Peso</Description>
+              </CostOSCurrency>
+              <CostOSGSTVATAmount>570.0000</CostOSGSTVATAmount>
+              <CostRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </CostRatingBehaviour>
+              <Creditor>
+                <Type>Organization</Type>
+                <Key>PLUCHISCL</Key>
+              </Creditor>
+              <Debtor>
+                <Type>Organization</Type>
+                <Key>SALCHISCL</Key>
+              </Debtor>
+              <Department>
+                <Code>FIS</Code>
+                <Name>Forwarding Import Sea</Name>
+              </Department>
+              <Description>DESCONSOLIDACION</Description>
+              <DisplaySequence>4</DisplaySequence>
+              <SellExchangeRate>1.000000000</SellExchangeRate>
+              <SellGSTVATID>
+                <TaxCode>IVA</TaxCode>
+                <Description>Standard Rated</Description>
+              </SellGSTVATID>
+              <SellInvoiceType>FIN</SellInvoiceType>
+              <SellIsPosted>true</SellIsPosted>
+              <SellLocalAmount>20000.0000</SellLocalAmount>
+              <SellOSAmount>20000.0000</SellOSAmount>
+              <SellOSCurrency>
+                <Code>CLP</Code>
+                <Description>Chilean Peso</Description>
+              </SellOSCurrency>
+              <SellOSGSTVATAmount>3800.0000</SellOSGSTVATAmount>
+              <SellPostedTransaction>
+
+                <DueDate>2022-06-20T16:30:00</DueDate>
+                <FullyPaidDate>2022-06-24T00:00:00</FullyPaidDate>
+                <Number>00025645</Number>
+                <OutstandingAmount>0.0000</OutstandingAmount>
+                <TransactionDate>2022-06-20T16:30:00</TransactionDate>
+                <TransactionType>INV</TransactionType>
+              </SellPostedTransaction>
+              <SellPostedTransactionNumber>00025645</SellPostedTransactionNumber>
+              <SellPostedTransactionType>INV</SellPostedTransactionType>
+              <SellRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </SellRatingBehaviour>
+              <CostRatingBasisCollection>
+              </CostRatingBasisCollection>
+              <SellRatingBasisCollection>
+              </SellRatingBasisCollection>
+            </ChargeLine>
+            <ChargeLine>
+              <Branch>
+                <Code>SCL</Code>
+                <Name>AirSeaLogistics SPA</Name>
+              </Branch>
+              <ChargeCode>
+                <Code>SED</Code>
+                <Description>SHIPPER EXPORT DECLARATION</Description>
+              </ChargeCode>
+              <ChargeCodeGroup>
+                <Code>FRT</Code>
+                <Description>Freight</Description>
+              </ChargeCodeGroup>
+              <CostExchangeRate>863.950000000</CostExchangeRate>
+              <CostGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </CostGSTVATID>
+              <CostIsPosted>false</CostIsPosted>
+              <CostLocalAmount>43198.0000</CostLocalAmount>
+              <CostOSAmount>50.0000</CostOSAmount>
+              <CostOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </CostOSCurrency>
+              <CostOSGSTVATAmount>0.0000</CostOSGSTVATAmount>
+              <CostRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </CostRatingBehaviour>
+              <Creditor>
+                <Type>Organization</Type>
+                <Key>PLUCHISCL</Key>
+              </Creditor>
+              <Debtor>
+                <Type>Organization</Type>
+                <Key>SALCHISCL</Key>
+              </Debtor>
+              <Department>
+                <Code>FIS</Code>
+                <Name>Forwarding Import Sea</Name>
+              </Department>
+              <Description>SHIPPER EXPORT DECLARATION</Description>
+              <DisplaySequence>5</DisplaySequence>
+              <SellExchangeRate>963.215000000</SellExchangeRate>
+              <SellGSTVATID>
+                <TaxCode>EXEMPT</TaxCode>
+                <Description>Exempt Rated</Description>
+              </SellGSTVATID>
+              <SellInvoiceType>ITC</SellInvoiceType>
+              <SellIsPosted>true</SellIsPosted>
+              <SellLocalAmount>48161.0000</SellLocalAmount>
+              <SellOSAmount>50.0000</SellOSAmount>
+              <SellOSCurrency>
+                <Code>USD</Code>
+                <Description>United States Dollar</Description>
+              </SellOSCurrency>
+              <SellOSGSTVATAmount>0</SellOSGSTVATAmount>
+              <SellPostedTransaction>
+
+                <DueDate>2022-07-30T00:00:00</DueDate>
+                <FullyPaidDate></FullyPaidDate>
+                <Number>00025646</Number>
+                <OutstandingAmount>474865.0000</OutstandingAmount>
+                <TransactionDate>2022-06-20T16:30:00</TransactionDate>
+                <TransactionType>INV</TransactionType>
+              </SellPostedTransaction>
+              <SellPostedTransactionNumber>00025646</SellPostedTransactionNumber>
+              <SellPostedTransactionType>INV</SellPostedTransactionType>
+              <SellRatingBehaviour>
+                <Code>NEW</Code>
+                <Description>Create new Charge during AutoRating</Description>
+              </SellRatingBehaviour>
+              <CostRatingBasisCollection>
+              </CostRatingBasisCollection>
+              <SellRatingBasisCollection>
+              </SellRatingBasisCollection>
+            </ChargeLine>
+          </ChargeLineCollection>
+        </JobCosting>
+        <LloydsIMO>9294408</LloydsIMO>
+        <ManifestedChargeable>0.100</ManifestedChargeable>
+        <ManifestedVolume>0.100</ManifestedVolume>
+        <ManifestedWeight>30.840</ManifestedWeight>
+        <NoCopyBills>3</NoCopyBills>
+        <NoOriginalBills>3</NoOriginalBills>
+        <OuterPacks>2</OuterPacks>
+        <OuterPacksPackageType>
+          <Code>BOX</Code>
+          <Description>Box</Description>
+        </OuterPacksPackageType>
+        <PackingOrder>0</PackingOrder>
+        <PortOfDestination>
+          <Code>CLSAI</Code>
+          <Name>San Antonio</Name>
+        </PortOfDestination>
+        <PortOfDischarge>
+          <Code>CLSAI</Code>
+          <Name>San Antonio</Name>
+        </PortOfDischarge>
+        <PortOfFirstArrival>
+          <Code></Code>
+        </PortOfFirstArrival>
+        <PortOfLoading>
+          <Code>USNTD</Code>
+          <Name>Port Hueneme</Name>
+        </PortOfLoading>
+        <PortOfOrigin>
+          <Code>USNTD</Code>
+          <Name>Port Hueneme</Name>
+        </PortOfOrigin>
+        <ReleaseType>
+          <Code>EMD</Code>
+          <Description>Emision en Destino</Description>
+        </ReleaseType>
+        <ScreeningStatus>
+          <Code>NOT</Code>
+          <Description>Not Screened</Description>
+        </ScreeningStatus>
+        <ServiceLevel>
+          <Code>RO</Code>
+          <Description>Routing Order</Description>
+        </ServiceLevel>
+        <ShipmentIncoTerm>
+          <Code>EXW</Code>
+          <Description>Ex Works</Description>
+        </ShipmentIncoTerm>
+        <ShipmentType>
+          <Code>STD</Code>
+          <Description>Standard House</Description>
+        </ShipmentType>
+        <ShippedOnBoard>
+          <Code>SHP</Code>
+          <Description>Shipped</Description>
+        </ShippedOnBoard>
+        <ShipperCODAmount>0.0000</ShipperCODAmount>
+        <ShipperCODPayMethod>
+          <Code></Code>
+        </ShipperCODPayMethod>
+        <TotalNoOfPacks>0</TotalNoOfPacks>
+        <TotalNoOfPacksPackageType>
+          <Code>CTN</Code>
+          <Description>Carton</Description>
+        </TotalNoOfPacksPackageType>
+        <TotalVolume>0.100</TotalVolume>
+        <TotalVolumeUnit>
+          <Code>M3</Code>
+          <Description>Cubic Meters</Description>
+        </TotalVolumeUnit>
+        <TotalWeight>30.840</TotalWeight>
+        <TotalWeightUnit>
+          <Code>KG</Code>
+          <Description>Kilograms</Description>
+        </TotalWeightUnit>
+        <TranshipToOtherCFS>false</TranshipToOtherCFS>
+        <TransportMode>
+          <Code>SEA</Code>
+          <Description>Sea Freight</Description>
+        </TransportMode>
+        <VesselName>MAERSK LAUNCESTON</VesselName>
+        <VoyageFlightNo>225S</VoyageFlightNo>
+        <WarehouseLocation></WarehouseLocation>
+        <WayBillNumber>HBL7362</WayBillNumber>
+        <WayBillType>
+          <Code>HWB</Code>
+          <Description>House Waybill</Description>
+        </WayBillType>
+        <LocalProcessing>
+          <ArrivalCartageRef></ArrivalCartageRef>
+          <DeliveryCartageAdvised></DeliveryCartageAdvised>
+          <DeliveryCartageCompleted></DeliveryCartageCompleted>
+          <DeliveryLabourCharge>0.0000</DeliveryLabourCharge>
+          <DeliveryLabourTime></DeliveryLabourTime>
+          <DeliveryRequiredBy></DeliveryRequiredBy>
+          <DeliveryRequiredFrom></DeliveryRequiredFrom>
+          <DeliveryTruckWaitCharge>0.0000</DeliveryTruckWaitCharge>
+          <DeliveryTruckWaitTime></DeliveryTruckWaitTime>
+          <DemurrageOnDeliveryCharge>0.0000</DemurrageOnDeliveryCharge>
+          <DemurrageOnDeliveryTime></DemurrageOnDeliveryTime>
+          <DemurrageOnPickupCharge>0.0000</DemurrageOnPickupCharge>
+          <DemurrageOnPickupTime></DemurrageOnPickupTime>
+          <EstimatedDelivery></EstimatedDelivery>
+          <EstimatedPickup></EstimatedPickup>
+          <ExportStatement>
+            <Code></Code>
+          </ExportStatement>
+          <FCLAvailable></FCLAvailable>
+          <FCLDeliveryDetentionCharge>0.0000</FCLDeliveryDetentionCharge>
+          <FCLDeliveryDetentionDays>0</FCLDeliveryDetentionDays>
+          <FCLDeliveryDetentionFreeDays>0</FCLDeliveryDetentionFreeDays>
+          <FCLDeliveryEquipmentNeeded>
+            <Code></Code>
+          </FCLDeliveryEquipmentNeeded>
+          <FCLPickupDetentionCharge>0.0000</FCLPickupDetentionCharge>
+          <FCLPickupDetentionDays>0</FCLPickupDetentionDays>
+          <FCLPickupDetentionFreeDays>0</FCLPickupDetentionFreeDays>
+          <FCLPickupEquipmentNeeded>
+            <Code>PSL</Code>
+            <Description>Premise Supplies Lift</Description>
+          </FCLPickupEquipmentNeeded>
+          <FCLStorageCommences></FCLStorageCommences>
+          <HasProhibitedPackaging>false</HasProhibitedPackaging>
+          <InsuranceRequired>false</InsuranceRequired>
+          <IsContingencyRelease>false</IsContingencyRelease>
+          <LCLAirStorageCharge>0.0000</LCLAirStorageCharge>
+          <LCLAirStorageDaysOrHours>0</LCLAirStorageDaysOrHours>
+          <LCLAvailable></LCLAvailable>
+          <LCLDatesOverrideConsol>false</LCLDatesOverrideConsol>
+          <LCLStorageCommences></LCLStorageCommences>
+          <PickupCartageAdvised></PickupCartageAdvised>
+          <PickupCartageCompleted></PickupCartageCompleted>
+          <PickupLabourCharge>0.0000</PickupLabourCharge>
+          <PickupLabourTime></PickupLabourTime>
+          <PickupRequiredBy></PickupRequiredBy>
+          <PickupRequiredFrom></PickupRequiredFrom>
+          <PickupTruckWaitCharge>0.0000</PickupTruckWaitCharge>
+          <PickupTruckWaitTime></PickupTruckWaitTime>
+          <PrintOptionForPackagesOnAWB>
+            <Code>DEF</Code>
+            <Description>Default (Dims, fallback to Vol)</Description>
+          </PrintOptionForPackagesOnAWB>
+        </LocalProcessing>
+        <ContainerCollection Content="Complete">
+          <Container>
+            <AirVentFlow>0.0</AirVentFlow>
+            <AirVentFlowRateUnit>
+              <Code></Code>
+            </AirVentFlowRateUnit>
+            <ArrivalCartageAdvised></ArrivalCartageAdvised>
+            <ArrivalCartageComplete></ArrivalCartageComplete>
+            <ArrivalCartageDemurrageTime></ArrivalCartageDemurrageTime>
+            <ArrivalCartageRef></ArrivalCartageRef>
+            <ArrivalCTOStorageStartDate></ArrivalCTOStorageStartDate>
+            <ArrivalDeliveryRequiredBy></ArrivalDeliveryRequiredBy>
+            <ArrivalEstimatedDelivery></ArrivalEstimatedDelivery>
+            <ArrivalPickupByRail>false</ArrivalPickupByRail>
+            <ArrivalSlotDateTime></ArrivalSlotDateTime>
+            <ArrivalSlotReference></ArrivalSlotReference>
+            <ArrivalTruckWaitTime></ArrivalTruckWaitTime>
+            <Commodity>
+              <Code></Code>
+            </Commodity>
+            <ContainerCount>1</ContainerCount>
+            <ContainerImportDORelease></ContainerImportDORelease>
+            <ContainerNumber>MNBU0070640</ContainerNumber>
+            <ContainerParkEmptyPickupGateOut></ContainerParkEmptyPickupGateOut>
+            <ContainerParkEmptyReturnGateIn></ContainerParkEmptyReturnGateIn>
+            <ContainerQuality>
+              <Code></Code>
+            </ContainerQuality>
+            <ContainerStatus>
+              <Code></Code>
+            </ContainerStatus>
+            <ContainerType>
+              <Code>40RE</Code>
+              <Category>
+                <Code>RFG</Code>
+                <Description>Refrigerated</Description>
+              </Category>
+              <Description>Forty foot reefer</Description>
+              <ISOCode>42R0</ISOCode>
+            </ContainerType>
+            <DeliveryMode>CFS/CFS</DeliveryMode>
+            <DeliverySequence>0</DeliverySequence>
+            <DepartureCartageAdvised></DepartureCartageAdvised>
+            <DepartureCartageComplete></DepartureCartageComplete>
+            <DepartureCartageDemurrageTime></DepartureCartageDemurrageTime>
+            <DepartureCartageRef></DepartureCartageRef>
+            <DepartureDeliveryByRail>false</DepartureDeliveryByRail>
+            <DepartureDockReceipt></DepartureDockReceipt>
+            <DepartureEstimatedPickup></DepartureEstimatedPickup>
+            <DepartureSlotDateTime></DepartureSlotDateTime>
+            <DepartureSlotReference></DepartureSlotReference>
+            <DepartureTruckWaitTime></DepartureTruckWaitTime>
+            <DunnageWeight>0.000</DunnageWeight>
+            <EmptyReadyForReturn></EmptyReadyForReturn>
+            <EmptyRequired></EmptyRequired>
+            <EmptyReturnedBy></EmptyReturnedBy>
+            <EmptyReturnRef></EmptyReturnRef>
+            <ExportDepotCustomsReference></ExportDepotCustomsReference>
+            <FCL_LCL_AIR>
+              <Code>LCL</Code>
+              <Description>Less Container Load</Description>
+            </FCL_LCL_AIR>
+            <FCLAvailable></FCLAvailable>
+            <FCLHeldInTransitStaging>false</FCLHeldInTransitStaging>
+            <FCLOnBoardVessel></FCLOnBoardVessel>
+            <FCLStorageArrivedUnderbond>false</FCLStorageArrivedUnderbond>
+            <FCLStorageCommences></FCLStorageCommences>
+            <FCLStorageModuleOnlyMaster></FCLStorageModuleOnlyMaster>
+            <FCLStorageUnderbondCleared></FCLStorageUnderbondCleared>
+            <FCLUnloadFromVessel></FCLUnloadFromVessel>
+            <FCLWharfGateIn></FCLWharfGateIn>
+            <FCLWharfGateOut></FCLWharfGateOut>
+            <GoodsValue>0.0000</GoodsValue>
+            <GoodsValueCurrency>
+              <Code></Code>
+            </GoodsValueCurrency>
+            <GoodsWeight>30.84</GoodsWeight>
+            <GrossWeight>30.840</GrossWeight>
+            <GrossWeightVerificationType>
+              <Code>NON</Code>
+              <Description>Not Verified</Description>
+            </GrossWeightVerificationType>
+            <HumidityPercent>0</HumidityPercent>
+            <ImportDepotCustomsReference></ImportDepotCustomsReference>
+            <IsCFSRegistered>false</IsCFSRegistered>
+            <IsControlledAtmosphere>true</IsControlledAtmosphere>
+            <IsDamaged>false</IsDamaged>
+            <IsEmptyContainer>false</IsEmptyContainer>
+            <IsSealOk>true</IsSealOk>
+            <IsShipperOwned>false</IsShipperOwned>
+            <LCLAvailable></LCLAvailable>
+            <LCLStorageCommences></LCLStorageCommences>
+            <LCLUnpack></LCLUnpack>
+            <LengthUnit>
+              <Code>FT</Code>
+              <Description>Feet</Description>
+            </LengthUnit>
+            <Link>1</Link>
+            <OverhangBack>0.000</OverhangBack>
+            <OverhangFront>0</OverhangFront>
+            <OverhangHeight>0</OverhangHeight>
+            <OverhangLeft>0</OverhangLeft>
+            <OverhangRight>0.000</OverhangRight>
+            <OverrideFCLAvailableStorage>false</OverrideFCLAvailableStorage>
+            <OverrideLCLAvailableStorage>false</OverrideLCLAvailableStorage>
+            <PackDate></PackDate>
+            <RefrigGeneratorID></RefrigGeneratorID>
+            <ReleaseNum></ReleaseNum>
+            <Seal>UL556677</Seal>
+            <SealPartyType>
+              <Code>CAR</Code>
+              <Description>Carrier/Shipping Line</Description>
+            </SealPartyType>
+            <SecondSeal></SecondSeal>
+            <SecondSealPartyType>
+              <Code></Code>
+            </SecondSealPartyType>
+            <SetPointTemp>0.000</SetPointTemp>
+            <SetPointTempUnit></SetPointTempUnit>
+            <StowagePosition></StowagePosition>
+            <TareWeight>0.000</TareWeight>
+            <TempRecorderSerialNo></TempRecorderSerialNo>
+            <ThirdSeal></ThirdSeal>
+            <ThirdSealPartyType>
+              <Code></Code>
+            </ThirdSealPartyType>
+            <TotalHeight>8.500</TotalHeight>
+            <TotalLength>40.000</TotalLength>
+            <TotalWidth>8.000</TotalWidth>
+            <TrainWagonNumber></TrainWagonNumber>
+            <UnpackGang></UnpackGang>
+            <UnpackShed></UnpackShed>
+            <VolumeCapacity>0.000</VolumeCapacity>
+            <VolumeUnit>
+              <Code>M3</Code>
+              <Description>Cubic Meters</Description>
+            </VolumeUnit>
+            <WeightCapacity>0.000</WeightCapacity>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>Kilograms</Description>
+            </WeightUnit>
+          </Container>
+        </ContainerCollection>
+        <CustomizedFieldCollection>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>HBL-MBL Validado</Key>
+            <Value>V-OK</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Servicio Intermodal</Key>
+            <Value>NO</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Boolean</DataType>
+            <Key>Costo Aprobado Agente</Key>
+            <Value>false</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Boolean</DataType>
+            <Key>Costo Aprobado Local</Key>
+            <Value>false</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Comentarios AprobaciA3n</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Boolean</DataType>
+            <Key>Venta Aprobada</Key>
+            <Value>false</Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>String</DataType>
+            <Key>Customer Services</Key>
+            <Value></Value>
+          </CustomizedField>
+          <CustomizedField>
+            <DataType>Integer</DataType>
+            <Key>DAas Libres</Key>
+            <Value>0</Value>
+          </CustomizedField>
+        </CustomizedFieldCollection>
+        <DateCollection>
+          <Date>
+            <Type>BookingConfirmed</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value>2022-05-11T14:44:00</Value>
+          </Date>
+          <Date>
+            <Type>Received</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>Departure</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value>2022-06-01T00:00:00</Value>
+          </Date>
+          <Date>
+            <Type>Arrival</Type>
+            <IsEstimate>true</IsEstimate>
+            <Value>2022-06-30T00:00:00</Value>
+          </Date>
+          <Date>
+            <Type>ShippedOnBoard</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>BillIssued</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>PickupReceiptRequested</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>DeliveryReceiptRequested</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>PickupDispatchRequested</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+          <Date>
+            <Type>DeliveryDispatchRequested</Type>
+            <IsEstimate>false</IsEstimate>
+            <Value></Value>
+          </Date>
+        </DateCollection>
+        <MilestoneCollection>
+          <Milestone>
+            <Description>Departure from First Load Port</Description>
+            <EventCode>DEP</EventCode>
+            <Sequence>1</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate>2022-06-01T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>1st Transport Leg Arrival</Description>
+            <EventCode>ARV</EventCode>
+            <Sequence>2</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference></ConditionReference>
+            <ConditionType></ConditionType>
+            <EstimatedDate>2022-06-30T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>2nd Transport Leg Departure</Description>
+            <EventCode>DEP</EventCode>
+            <Sequence>3</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;SecondLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2022-06-01T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>2nd Transport Leg Arrival</Description>
+            <EventCode>ARV</EventCode>
+            <Sequence>4</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;SecondLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2022-06-30T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>3rd Transport Leg Departure</Description>
+            <EventCode>DEP</EventCode>
+            <Sequence>5</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;ThirdLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2022-06-01T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Arrival at Final Discharge Port</Description>
+            <EventCode>ARV</EventCode>
+            <Sequence>6</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>LOC=&lt;ThirdLeg.Origin&gt;</ConditionReference>
+            <ConditionType>RFP</ConditionType>
+            <EstimatedDate>2022-06-30T00:00:00</EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Aviso Sidemar</Description>
+            <EventCode>DDA</EventCode>
+            <Sequence>7</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>SDM*</ConditionReference>
+            <ConditionType>RFW</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>EnvAo aviso llegada</Description>
+            <EventCode>DDA</EventCode>
+            <Sequence>8</Sequence>
+            <ActualDate>2022-06-20T16:30:21.233</ActualDate>
+            <ConditionReference>ARN*</ConditionReference>
+            <ConditionType>RFW</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Canje HBL</Description>
+            <EventCode>DDA</EventCode>
+            <Sequence>9</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>HBC*</ConditionReference>
+            <ConditionType>RFW</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+          <Milestone>
+            <Description>Canje MBL</Description>
+            <EventCode>DDA</EventCode>
+            <Sequence>10</Sequence>
+            <ActualDate></ActualDate>
+            <ConditionReference>MBC*</ConditionReference>
+            <ConditionType>RFW</ConditionType>
+            <EstimatedDate></EstimatedDate>
+          </Milestone>
+        </MilestoneCollection>
+        <NoteCollection Content="Partial">
+          <Note>
+            <Description>Detailed Goods Description</Description>
+            <IsCustomDescription>false</IsCustomDescription>
+            <NoteText>BEAUTY PRODUCTS</NoteText>
+            <NoteContext>
+              <Code>AAA</Code>
+              <Description>Module: A - All, Direction: A - All, Freight: A - All</Description>
+            </NoteContext>
+            <Visibility>
+              <Code>PUB</Code>
+              <Description>CLIENT-VISIBLE</Description>
+            </Visibility>
+          </Note>
+        </NoteCollection>
+        <OrganizationAddressCollection>
+          <OrganizationAddress>
+            <AddressType>ConsignorDocumentaryAddress</AddressType>
+            <Address1>4649 AIRCENTER CIRCLE SUITE 101 RENO, NV</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>4649 AIRCENTER CIRCLE SUI</AddressShortCode>
+            <City>RENO</City>
+            <CompanyName>THEBALM</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email>anabel@theBalm.com</Email>
+            <Fax></Fax>
+            <OrganizationCode>THEBALSMF</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>USSAC</Code>
+              <Name>Sacramento</Name>
+            </Port>
+            <Postcode>89502</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="Nevada">NV</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsignorPickupDeliveryAddress</AddressType>
+            <Address1>4649 AIRCENTER CIRCLE SUITE 101 RENO, NV</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>4649 AIRCENTER CIRCLE SUI</AddressShortCode>
+            <City>RENO</City>
+            <CompanyName>THEBALM</CompanyName>
+            <Country>
+              <Code>US</Code>
+              <Name>United States</Name>
+            </Country>
+            <Email>anabel@theBalm.com</Email>
+            <Fax></Fax>
+            <OrganizationCode>THEBALSMF</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>USSAC</Code>
+              <Name>Sacramento</Name>
+            </Port>
+            <Postcode>89502</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="Nevada">NV</State>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneeDocumentaryAddress</AddressType>
+            <Address1>AVDA KENNEDY 7600 OF 803-804</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>AVDA KENNEDY 7600 OF 803-</AddressShortCode>
+            <City>SANTIAGO</City>
+            <CompanyName>SALLY CHILE HOLDING SPA</CompanyName>
+            <Country>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </Country>
+            <Email>VBarrera@Sallybeauty.com</Email>
+            <Fax></Fax>
+            <GovRegNum>76066983-0</GovRegNum>
+            <GovRegNumType>
+              <Code>RUT</Code>
+              <Description>RUT / Tax Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>SALCHISCL</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>CLSCL</Code>
+              <Name>Santiago</Name>
+            </Port>
+            <Postcode>7650558</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GEM</Code>
+                  <Description>Giro Empresa / Business Activity De</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>CL</Code>
+                  <Name>Chile</Name>
+                </CountryOfIssue>
+                <Value>VENTAS AL POR MAYOR DE OTROS PRODUC</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>ConsigneePickupDeliveryAddress</AddressType>
+            <Address1>AVDA KENNEDY 7600 OF 803-804</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>AVDA KENNEDY 7600 OF 803-</AddressShortCode>
+            <City>SANTIAGO</City>
+            <CompanyName>SALLY CHILE HOLDING SPA</CompanyName>
+            <Country>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </Country>
+            <Email>VBarrera@Sallybeauty.com</Email>
+            <Fax></Fax>
+            <GovRegNum>76066983-0</GovRegNum>
+            <GovRegNumType>
+              <Code>RUT</Code>
+              <Description>RUT / Tax Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>SALCHISCL</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>CLSCL</Code>
+              <Name>Santiago</Name>
+            </Port>
+            <Postcode>7650558</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GEM</Code>
+                  <Description>Giro Empresa / Business Activity De</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>CL</Code>
+                  <Name>Chile</Name>
+                </CountryOfIssue>
+                <Value>VENTAS AL POR MAYOR DE OTROS PRODUC</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>SendersLocalClient</AddressType>
+            <Address1>AVDA KENNEDY 7600 OF 803-804</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>AVDA KENNEDY 7600 OF 803-</AddressShortCode>
+            <City>SANTIAGO</City>
+            <CompanyName>SALLY CHILE HOLDING SPA</CompanyName>
+            <Country>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </Country>
+            <Email>VBarrera@Sallybeauty.com</Email>
+            <Fax></Fax>
+            <GovRegNum>76066983-0</GovRegNum>
+            <GovRegNumType>
+              <Code>RUT</Code>
+              <Description>RUT / Tax Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>SALCHISCL</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>CLSCL</Code>
+              <Name>Santiago</Name>
+            </Port>
+            <Postcode>7650558</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GEM</Code>
+                  <Description>Giro Empresa / Business Activity De</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>CL</Code>
+                  <Name>Chile</Name>
+                </CountryOfIssue>
+                <Value>VENTAS AL POR MAYOR DE OTROS PRODUC</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+          <OrganizationAddress>
+            <AddressType>SendersOverseasAgent</AddressType>
+            <Address1>EVARISTO LILLO 78 PISO 6</Address1>
+            <Address2></Address2>
+            <AddressOverride>false</AddressOverride>
+            <AddressShortCode>EVARISTO LILLO 78 PISO 6</AddressShortCode>
+            <City>SANTIAGO</City>
+            <CompanyName>PLUSCARGO CHILE SPA</CompanyName>
+            <Country>
+              <Code>CL</Code>
+              <Name>Chile</Name>
+            </Country>
+            <Email>daniel.pinones@pluscargochile.cl</Email>
+            <Fax></Fax>
+            <GovRegNum>76051369-5</GovRegNum>
+            <GovRegNumType>
+              <Code>RUT</Code>
+              <Description>RUT / Tax Identification Number</Description>
+            </GovRegNumType>
+            <OrganizationCode>PLUCHISCL</OrganizationCode>
+            <Phone></Phone>
+            <Port>
+              <Code>CLSCL</Code>
+              <Name>Santiago</Name>
+            </Port>
+            <Postcode>7580110</Postcode>
+            <ScreeningStatus>
+              <Code>NOT</Code>
+              <Description>Not Screened</Description>
+            </ScreeningStatus>
+            <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+            <RegistrationNumberCollection>
+              <RegistrationNumber>
+                <Type>
+                  <Code>GEM</Code>
+                  <Description>Giro Empresa / Business Activity De</Description>
+                </Type>
+                <CountryOfIssue>
+                  <Code>CL</Code>
+                  <Name>Chile</Name>
+                </CountryOfIssue>
+                <Value>OTRAS ACTIVIDADES CONEXAS AL TRANSP</Value>
+              </RegistrationNumber>
+            </RegistrationNumberCollection>
+          </OrganizationAddress>
+        </OrganizationAddressCollection>
+        <PackingLineCollection Content="Complete">
+          <PackingLine>
+            <Commodity>
+              <Code>GEN</Code>
+              <Description>General</Description>
+            </Commodity>
+            <ContainerLink>1</ContainerLink>
+            <ContainerNumber>MNBU0070640</ContainerNumber>
+            <ContainerPackingOrder>1</ContainerPackingOrder>
+            <CountryOfOrigin>
+              <Code></Code>
+            </CountryOfOrigin>
+            <DetailedDescription></DetailedDescription>
+            <EndItemNo>0</EndItemNo>
+            <ExportReferenceNumber></ExportReferenceNumber>
+            <GoodsDescription></GoodsDescription>
+            <HarmonisedCode></HarmonisedCode>
+            <Height>0.000</Height>
+            <ImportReferenceNumber></ImportReferenceNumber>
+            <ItemNo>0</ItemNo>
+            <LastKnownCFSStatus>
+              <Code></Code>
+            </LastKnownCFSStatus>
+            <LastKnownCFSStatusDate></LastKnownCFSStatusDate>
+            <Length>0.000</Length>
+            <LengthUnit>
+              <Code>M</Code>
+              <Description>Meters</Description>
+            </LengthUnit>
+            <LinePrice>0.0000</LinePrice>
+            <Link>1</Link>
+            <LoadingMeters>0.000</LoadingMeters>
+            <MarksAndNos></MarksAndNos>
+            <OutturnComment></OutturnComment>
+            <OutturnDamagedQty>0</OutturnDamagedQty>
+            <OutturnedHeight>0.000</OutturnedHeight>
+            <OutturnedLength>0.000</OutturnedLength>
+            <OutturnedVolume>0.000</OutturnedVolume>
+            <OutturnedWeight>0.000</OutturnedWeight>
+            <OutturnedWidth>0.000</OutturnedWidth>
+            <OutturnPillagedQty>0</OutturnPillagedQty>
+            <OutturnQty>0</OutturnQty>
+            <PackingLineID>A5LPRD00025068</PackingLineID>
+            <PackQty>2</PackQty>
+            <PackType>
+              <Code>BOX</Code>
+              <Description>Box</Description>
+            </PackType>
+            <ReferenceNumber></ReferenceNumber>
+            <RequiresTemperatureControl>false</RequiresTemperatureControl>
+            <Volume>0.100</Volume>
+            <VolumeUnit>
+              <Code>M3</Code>
+              <Description>Cubic Meters</Description>
+            </VolumeUnit>
+            <Weight>30.840</Weight>
+            <WeightUnit>
+              <Code>KG</Code>
+              <Description>Kilograms</Description>
+            </WeightUnit>
+            <Width>0.000</Width>
+            <PackedItemCollection>
+            </PackedItemCollection>
+          </PackingLine>
+        </PackingLineCollection>
+        <TransportLegCollection Content="Complete">
+          <TransportLeg>
+            <PortOfDischarge>
+              <Code>PABLB</Code>
+              <Name>Balboa</Name>
+            </PortOfDischarge>
+            <PortOfLoading>
+              <Code>USNTD</Code>
+              <Name>Port Hueneme</Name>
+            </PortOfLoading>
+            <LegOrder>1</LegOrder>
+            <ActualArrival></ActualArrival>
+            <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+            <ActualDeparture>2022-06-01T00:00:00</ActualDeparture>
+            <AircraftType>
+              <Code></Code>
+            </AircraftType>
+            <ArrivalBerth></ArrivalBerth>
+            <ArrivalReference></ArrivalReference>
+            <BookingStatus>
+              <Code>CNF</Code>
+              <Description>Confirmed</Description>
+            </BookingStatus>
+            <Carrier>
+              <AddressType>Carrier</AddressType>
+              <Address1>AVENIDA APOQUINDO 3650</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>AVENIDA APOQUINDO 3650</AddressShortCode>
+              <City>LAS CONDES</City>
+              <CompanyName>SEALAND - A MAERSK COMPANY</CompanyName>
+              <Country>
+                <Code>CL</Code>
+                <Name>Chile</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <GovRegNum>96653890-2</GovRegNum>
+              <GovRegNumType>
+                <Code>RUT</Code>
+                <Description>RUT / Tax Identification Number</Description>
+              </GovRegNumType>
+              <OrganizationCode>SEAAMA_WW</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>CLLCO</Code>
+                <Name>Las Condes</Name>
+              </Port>
+              <Postcode>7550000</Postcode>
+              <ScreeningStatus>
+                <Code>NOT</Code>
+                <Description>Not Screened</Description>
+              </ScreeningStatus>
+              <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+              <RegistrationNumberCollection>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>GEM</Code>
+                    <Description>Giro Empresa / Business Activity De</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>CL</Code>
+                    <Name>Chile</Name>
+                  </CountryOfIssue>
+                  <Value>TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>C1C</Code>
+                    <Description>CargoWiseOne Carrier Code</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>US</Code>
+                    <Name>United States</Name>
+                  </CountryOfIssue>
+                  <Value>C1SL</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>CCC</Code>
+                    <Description>Standard Carrier Alpha Code (Sea)</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>US</Code>
+                    <Name>United States</Name>
+                  </CountryOfIssue>
+                  <Value>SEAU</Value>
+                </RegistrationNumber>
+              </RegistrationNumberCollection>
+            </Carrier>
+            <CarrierBookingReference></CarrierBookingReference>
+            <CarrierServiceLevel>
+              <Code></Code>
+            </CarrierServiceLevel>
+            <DepartureBerth></DepartureBerth>
+            <DepartureReference></DepartureReference>
+            <DocumentCutOff></DocumentCutOff>
+            <EmptyCutOff></EmptyCutOff>
+            <EmptyReceivalCommences></EmptyReceivalCommences>
+            <EstimatedArrival>2022-06-16T00:00:00</EstimatedArrival>
+            <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+            <EstimatedDeparture>2022-06-01T00:00:00</EstimatedDeparture>
+            <FCLAvailability></FCLAvailability>
+            <FCLCutOff></FCLCutOff>
+            <FCLReceivalCommences></FCLReceivalCommences>
+            <FCLStorage></FCLStorage>
+            <HazzardCutOffDate></HazzardCutOffDate>
+            <HazzardReceivalCommences></HazzardReceivalCommences>
+            <IsCargoOnly>true</IsCargoOnly>
+            <LCLAvailability></LCLAvailability>
+            <LCLCutOff></LCLCutOff>
+            <LCLReceivalCommences></LCLReceivalCommences>
+            <LCLStorageDate></LCLStorageDate>
+            <LegNotes></LegNotes>
+            <LegType>PreCarriage</LegType>
+            <ReeferCutOff></ReeferCutOff>
+            <ReeferReceivalCommences></ReeferReceivalCommences>
+            <ScheduledArrival>2022-06-30T00:00:00</ScheduledArrival>
+            <ScheduledArrivalInPortOfLoading></ScheduledArrivalInPortOfLoading>
+            <ScheduledDeparture>2022-06-01T00:00:00</ScheduledDeparture>
+            <TransportMode>Sea</TransportMode>
+            <VesselLloydsIMO>9215919</VesselLloydsIMO>
+            <VesselName>MAERSK NORTHAMPTON</VesselName>
+            <VGMCutOff></VGMCutOff>
+            <VoyageFlightNo>222S</VoyageFlightNo>
+          </TransportLeg>
+          <TransportLeg>
+            <PortOfDischarge>
+              <Code>CLSAI</Code>
+              <Name>San Antonio</Name>
+            </PortOfDischarge>
+            <PortOfLoading>
+              <Code>PABLB</Code>
+              <Name>Balboa</Name>
+            </PortOfLoading>
+            <LegOrder>2</LegOrder>
+            <ActualArrival>2022-06-30T22:48:00</ActualArrival>
+            <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+            <ActualDeparture>2022-06-23T07:59:00</ActualDeparture>
+            <AircraftType>
+              <Code></Code>
+            </AircraftType>
+            <ArrivalBerth></ArrivalBerth>
+            <ArrivalReference></ArrivalReference>
+            <BookingStatus>
+              <Code>CNF</Code>
+              <Description>Confirmed</Description>
+            </BookingStatus>
+            <Carrier>
+              <AddressType>Carrier</AddressType>
+              <Address1>AVENIDA APOQUINDO 3650</Address1>
+              <Address2></Address2>
+              <AddressOverride>false</AddressOverride>
+              <AddressShortCode>AVENIDA APOQUINDO 3650</AddressShortCode>
+              <City>LAS CONDES</City>
+              <CompanyName>SEALAND - A MAERSK COMPANY</CompanyName>
+              <Country>
+                <Code>CL</Code>
+                <Name>Chile</Name>
+              </Country>
+              <Email></Email>
+              <Fax></Fax>
+              <GovRegNum>96653890-2</GovRegNum>
+              <GovRegNumType>
+                <Code>RUT</Code>
+                <Description>RUT / Tax Identification Number</Description>
+              </GovRegNumType>
+              <OrganizationCode>SEAAMA_WW</OrganizationCode>
+              <Phone></Phone>
+              <Port>
+                <Code>CLLCO</Code>
+                <Name>Las Condes</Name>
+              </Port>
+              <Postcode>7550000</Postcode>
+              <ScreeningStatus>
+                <Code>NOT</Code>
+                <Description>Not Screened</Description>
+              </ScreeningStatus>
+              <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+              <RegistrationNumberCollection>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>GEM</Code>
+                    <Description>Giro Empresa / Business Activity De</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>CL</Code>
+                    <Name>Chile</Name>
+                  </CountryOfIssue>
+                  <Value>TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>C1C</Code>
+                    <Description>CargoWiseOne Carrier Code</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>US</Code>
+                    <Name>United States</Name>
+                  </CountryOfIssue>
+                  <Value>C1SL</Value>
+                </RegistrationNumber>
+                <RegistrationNumber>
+                  <Type>
+                    <Code>CCC</Code>
+                    <Description>Standard Carrier Alpha Code (Sea)</Description>
+                  </Type>
+                  <CountryOfIssue>
+                    <Code>US</Code>
+                    <Name>United States</Name>
+                  </CountryOfIssue>
+                  <Value>SEAU</Value>
+                </RegistrationNumber>
+              </RegistrationNumberCollection>
+            </Carrier>
+            <CarrierBookingReference></CarrierBookingReference>
+            <CarrierServiceLevel>
+              <Code></Code>
+            </CarrierServiceLevel>
+            <DepartureBerth></DepartureBerth>
+            <DepartureReference></DepartureReference>
+            <DocumentCutOff></DocumentCutOff>
+            <EmptyCutOff></EmptyCutOff>
+            <EmptyReceivalCommences></EmptyReceivalCommences>
+            <EstimatedArrival>2022-06-30T23:00:00</EstimatedArrival>
+            <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+            <EstimatedDeparture>2022-06-23T00:00:00</EstimatedDeparture>
+            <FCLAvailability></FCLAvailability>
+            <FCLCutOff></FCLCutOff>
+            <FCLReceivalCommences></FCLReceivalCommences>
+            <FCLStorage></FCLStorage>
+            <HazzardCutOffDate></HazzardCutOffDate>
+            <HazzardReceivalCommences></HazzardReceivalCommences>
+            <IsCargoOnly>true</IsCargoOnly>
+            <LCLAvailability></LCLAvailability>
+            <LCLCutOff></LCLCutOff>
+            <LCLReceivalCommences></LCLReceivalCommences>
+            <LCLStorageDate></LCLStorageDate>
+            <LegNotes></LegNotes>
+            <LegType>Main</LegType>
+            <ReeferCutOff></ReeferCutOff>
+            <ReeferReceivalCommences></ReeferReceivalCommences>
+            <ScheduledArrival>2022-06-30T00:00:00</ScheduledArrival>
+            <ScheduledArrivalInPortOfLoading></ScheduledArrivalInPortOfLoading>
+            <ScheduledDeparture>2022-06-23T00:00:00</ScheduledDeparture>
+            <TransportMode>Sea</TransportMode>
+            <VesselLloydsIMO>9294408</VesselLloydsIMO>
+            <VesselName>MAERSK LAUNCESTON</VesselName>
+            <VGMCutOff></VGMCutOff>
+            <VoyageFlightNo>225S</VoyageFlightNo>
+          </TransportLeg>
+        </TransportLegCollection>
+      </SubShipment>
+    </SubShipmentCollection>
+    <TransportLegCollection Content="Complete">
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>PABLB</Code>
+          <Name>Balboa</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>USNTD</Code>
+          <Name>Port Hueneme</Name>
+        </PortOfLoading>
+        <LegOrder>1</LegOrder>
+        <ActualArrival></ActualArrival>
+        <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+        <ActualDeparture>2022-06-01T00:00:00</ActualDeparture>
+        <AircraftType>
+          <Code></Code>
+        </AircraftType>
+        <ArrivalBerth></ArrivalBerth>
+        <ArrivalReference></ArrivalReference>
+        <BookingStatus>
+          <Code>CNF</Code>
+          <Description>Confirmed</Description>
+        </BookingStatus>
+        <Carrier>
+          <AddressType>Carrier</AddressType>
+          <Address1>AVENIDA APOQUINDO 3650</Address1>
+          <Address2></Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>AVENIDA APOQUINDO 3650</AddressShortCode>
+          <City>LAS CONDES</City>
+          <CompanyName>SEALAND - A MAERSK COMPANY</CompanyName>
+          <Country>
+            <Code>CL</Code>
+            <Name>Chile</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <GovRegNum>96653890-2</GovRegNum>
+          <GovRegNumType>
+            <Code>RUT</Code>
+            <Description>RUT / Tax Identification Number</Description>
+          </GovRegNumType>
+          <OrganizationCode>SEAAMA_WW</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>CLLCO</Code>
+            <Name>Las Condes</Name>
+          </Port>
+          <Postcode>7550000</Postcode>
+          <ScreeningStatus>
+            <Code>NOT</Code>
+            <Description>Not Screened</Description>
+          </ScreeningStatus>
+          <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+          <RegistrationNumberCollection>
+            <RegistrationNumber>
+              <Type>
+                <Code>GEM</Code>
+                <Description>Giro Empresa / Business Activity De</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>CL</Code>
+                <Name>Chile</Name>
+              </CountryOfIssue>
+              <Value>TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>C1C</Code>
+                <Description>CargoWiseOne Carrier Code</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>US</Code>
+                <Name>United States</Name>
+              </CountryOfIssue>
+              <Value>C1SL</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>CCC</Code>
+                <Description>Standard Carrier Alpha Code (Sea)</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>US</Code>
+                <Name>United States</Name>
+              </CountryOfIssue>
+              <Value>SEAU</Value>
+            </RegistrationNumber>
+          </RegistrationNumberCollection>
+        </Carrier>
+        <CarrierBookingReference></CarrierBookingReference>
+        <CarrierServiceLevel>
+          <Code></Code>
+        </CarrierServiceLevel>
+        <DepartureBerth></DepartureBerth>
+        <DepartureReference></DepartureReference>
+        <DocumentCutOff></DocumentCutOff>
+        <EmptyCutOff></EmptyCutOff>
+        <EmptyReceivalCommences></EmptyReceivalCommences>
+        <EstimatedArrival>2022-06-16T00:00:00</EstimatedArrival>
+        <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+        <EstimatedDeparture>2022-06-01T00:00:00</EstimatedDeparture>
+        <FCLAvailability></FCLAvailability>
+        <FCLCutOff></FCLCutOff>
+        <FCLReceivalCommences></FCLReceivalCommences>
+        <FCLStorage></FCLStorage>
+        <HazzardCutOffDate></HazzardCutOffDate>
+        <HazzardReceivalCommences></HazzardReceivalCommences>
+        <IsCargoOnly>true</IsCargoOnly>
+        <LCLAvailability></LCLAvailability>
+        <LCLCutOff></LCLCutOff>
+        <LCLReceivalCommences></LCLReceivalCommences>
+        <LCLStorageDate></LCLStorageDate>
+        <LegNotes></LegNotes>
+        <LegType>PreCarriage</LegType>
+        <ReeferCutOff></ReeferCutOff>
+        <ReeferReceivalCommences></ReeferReceivalCommences>
+        <ScheduledArrival>2022-06-30T00:00:00</ScheduledArrival>
+        <ScheduledArrivalInPortOfLoading></ScheduledArrivalInPortOfLoading>
+        <ScheduledDeparture>2022-06-01T00:00:00</ScheduledDeparture>
+        <TransportMode>Sea</TransportMode>
+        <VesselLloydsIMO>9215919</VesselLloydsIMO>
+        <VesselName>MAERSK NORTHAMPTON</VesselName>
+        <VGMCutOff></VGMCutOff>
+        <VoyageFlightNo>222S</VoyageFlightNo>
+      </TransportLeg>
+      <TransportLeg>
+        <PortOfDischarge>
+          <Code>CLSAI</Code>
+          <Name>San Antonio</Name>
+        </PortOfDischarge>
+        <PortOfLoading>
+          <Code>PABLB</Code>
+          <Name>Balboa</Name>
+        </PortOfLoading>
+        <LegOrder>2</LegOrder>
+        <ActualArrival>2022-06-30T22:48:00</ActualArrival>
+        <ActualArrivalInPortOfLoading></ActualArrivalInPortOfLoading>
+        <ActualDeparture>2022-06-23T07:59:00</ActualDeparture>
+        <AircraftType>
+          <Code></Code>
+        </AircraftType>
+        <ArrivalBerth></ArrivalBerth>
+        <ArrivalReference></ArrivalReference>
+        <BookingStatus>
+          <Code>CNF</Code>
+          <Description>Confirmed</Description>
+        </BookingStatus>
+        <Carrier>
+          <AddressType>Carrier</AddressType>
+          <Address1>AVENIDA APOQUINDO 3650</Address1>
+          <Address2></Address2>
+          <AddressOverride>false</AddressOverride>
+          <AddressShortCode>AVENIDA APOQUINDO 3650</AddressShortCode>
+          <City>LAS CONDES</City>
+          <CompanyName>SEALAND - A MAERSK COMPANY</CompanyName>
+          <Country>
+            <Code>CL</Code>
+            <Name>Chile</Name>
+          </Country>
+          <Email></Email>
+          <Fax></Fax>
+          <GovRegNum>96653890-2</GovRegNum>
+          <GovRegNumType>
+            <Code>RUT</Code>
+            <Description>RUT / Tax Identification Number</Description>
+          </GovRegNumType>
+          <OrganizationCode>SEAAMA_WW</OrganizationCode>
+          <Phone></Phone>
+          <Port>
+            <Code>CLLCO</Code>
+            <Name>Las Condes</Name>
+          </Port>
+          <Postcode>7550000</Postcode>
+          <ScreeningStatus>
+            <Code>NOT</Code>
+            <Description>Not Screened</Description>
+          </ScreeningStatus>
+          <State Description="RegiA3n Metropolitana de Santiago">RM</State>
+          <RegistrationNumberCollection>
+            <RegistrationNumber>
+              <Type>
+                <Code>GEM</Code>
+                <Description>Giro Empresa / Business Activity De</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>CL</Code>
+                <Name>Chile</Name>
+              </CountryOfIssue>
+              <Value>TRANSPORTE DE CARGA MARITIMO Y DE CABOTAJE</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>C1C</Code>
+                <Description>CargoWiseOne Carrier Code</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>US</Code>
+                <Name>United States</Name>
+              </CountryOfIssue>
+              <Value>C1SL</Value>
+            </RegistrationNumber>
+            <RegistrationNumber>
+              <Type>
+                <Code>CCC</Code>
+                <Description>Standard Carrier Alpha Code (Sea)</Description>
+              </Type>
+              <CountryOfIssue>
+                <Code>US</Code>
+                <Name>United States</Name>
+              </CountryOfIssue>
+              <Value>SEAU</Value>
+            </RegistrationNumber>
+          </RegistrationNumberCollection>
+        </Carrier>
+        <CarrierBookingReference></CarrierBookingReference>
+        <CarrierServiceLevel>
+          <Code></Code>
+        </CarrierServiceLevel>
+        <DepartureBerth></DepartureBerth>
+        <DepartureReference></DepartureReference>
+        <DocumentCutOff></DocumentCutOff>
+        <EmptyCutOff></EmptyCutOff>
+        <EmptyReceivalCommences></EmptyReceivalCommences>
+        <EstimatedArrival>2022-06-30T23:00:00</EstimatedArrival>
+        <EstimatedArrivalInPortOfLoading></EstimatedArrivalInPortOfLoading>
+        <EstimatedDeparture>2022-06-23T00:00:00</EstimatedDeparture>
+        <FCLAvailability></FCLAvailability>
+        <FCLCutOff></FCLCutOff>
+        <FCLReceivalCommences></FCLReceivalCommences>
+        <FCLStorage></FCLStorage>
+        <HazzardCutOffDate></HazzardCutOffDate>
+        <HazzardReceivalCommences></HazzardReceivalCommences>
+        <IsCargoOnly>true</IsCargoOnly>
+        <LCLAvailability></LCLAvailability>
+        <LCLCutOff></LCLCutOff>
+        <LCLReceivalCommences></LCLReceivalCommences>
+        <LCLStorageDate></LCLStorageDate>
+        <LegNotes></LegNotes>
+        <LegType>Main</LegType>
+        <ReeferCutOff></ReeferCutOff>
+        <ReeferReceivalCommences></ReeferReceivalCommences>
+        <ScheduledArrival>2022-06-30T00:00:00</ScheduledArrival>
+        <ScheduledArrivalInPortOfLoading></ScheduledArrivalInPortOfLoading>
+        <ScheduledDeparture>2022-06-23T00:00:00</ScheduledDeparture>
+        <TransportMode>Sea</TransportMode>
+        <VesselLloydsIMO>9294408</VesselLloydsIMO>
+        <VesselName>MAERSK LAUNCESTON</VesselName>
+        <VGMCutOff></VGMCutOff>
+        <VoyageFlightNo>225S</VoyageFlightNo>
+      </TransportLeg>
+    </TransportLegCollection>
+  </Shipment>
+</UniversalShipment>
+</Data>
+  <ProcessingLog />
+</UniversalResponse>
